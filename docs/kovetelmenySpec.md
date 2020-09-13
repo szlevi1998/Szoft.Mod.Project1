@@ -22,9 +22,16 @@ Ehhez a tartozik még a kitalált szó kategóriája is.
 Szeretnénk azt, hogy a sorrendet a próbálkozások alapján legyen rangsorolva. Tehát az legyen elől aki a **legkevesebb próbálkozással** győzött.
 Emellett szeretnénk kiemelni azt is aki nem alkalmazott semmilyen segítséget.
 ### Követelménylista
-Egy olyan rendszer amely képes kategóriák közül választani a játék megkezdése előtt.
-Minden hibázás után a rendszer jelezzen egy állapotképpel.
-A rendszer képes legyen egy játékot egy megadott hibázás után félbeszakítani.
-Legyen lehetőségünk a játék félbeszakításához.
-A kör végén legyen lehetőségünk a játék újrakezdéséhez.
-A játék végén legyen opció arra, hogy eredménylistát megtekintsünk. 
+*   Egy olyan rendszer amely képes kategóriák közül választani a játék megkezdése előtt.
+
+*   Több korosztály is játszhassa a játékot.
+
+*   Minden hibázás után a rendszer jelezzen valamilyen módon.
+
+*  A rendszer képes legyen egy játékot egy megadott hibázás után félbeszakítani.
+
+*  Legyen lehetőségünk a játék félbeszakításához.
+
+*  A kör végén legyen lehetőségünk a játék újrakezdéséhez.
+
+*  A játék végén legyen opció arra, hogy eredménylistát megtekintsünk. 
