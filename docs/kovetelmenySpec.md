@@ -15,4 +15,11 @@ Két opciót szeretnék még látni a végén, az egyik a kilépés, a másik az
 Valami táblázat is legyen a játékban, hogy én vagy a tesóm a jobb.
 ### A jelenlegi üzleti folyamatok modellje
 ### Igényelt üzleti folyamatok modellje
+A célunk az, hogy egy olyan programot készítsünk el ami **tiszta és átlátható**. A legfontosabb az, hogy a felhasználó már az első próbálkozásnál megismerje a funkciókat.          
+Rendkívül fontos az, hogy a játékos tudja alkalmazni a választási lehetőséget még mielőtt elkezdi a játékot. 
+Ez alatt azt értjük, hogy a játék megkezdése előtt a játékos kiválasztja, hogy szeretne segítséget alkalmazni vagy sem.
+Ehhez a tartozik még a kitalált szó kategóriája is.
+Szeretnénk azt, hogy a sorrendet a próbálkozások alapján legyen rangsorolva. Tehát az legyen elől aki a **legkevesebb próbálkozással** győzött.
+Emellett szeretnénk kiemelni azt is aki nem alkalmazott semmilyen segítséget.
 ### Követelménylista
+Mi
