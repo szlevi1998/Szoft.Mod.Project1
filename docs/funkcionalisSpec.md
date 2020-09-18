@@ -1,5 +1,5 @@
 #Funkcionális Specifikáció
-### Használati esetek
+## Használati esetek
 A követelmény specifikáció, azon belül is a "Követelménylista" című bekezdése alapján az egyes pontok kifejtésére kerül sor ebben a fejezetben.
 * A programmal lehetőséget szeretnénk nyújtani az olyan kisgyermekes családoknak, kik hasonló körülmények között élnek, mint e program megrendelője.
 * Legfőbb célja az akasztófa játékunknak, hogy már a kezdetekkor az internettől való függetlenedés ötlete járt a fejünkben. Ezért ez a program még a béta verzióban internet nélkül fog működni.
@@ -17,10 +17,10 @@ A követelmény specifikáció, azon belül is a "Követelménylista" című bek
         * Leaderboard, a belépést követően a játék bekér egy felhasználói nevet, és majd ehhez fogja társítani a játszott játékok számát és a győztes játékok számát. A tábla elején mindig a legtöbb játékot nyert játékos neve szerepel majd.
      * A szoftverben az egyik legfontosabb **funkció**, hogy egy szerethető és könnyen kezelhető felületet nyújtsunk a felhasználóknak.
         
-### Jelenlegi helyzet
-### Jelenlegi üzleti folyamatok modellje
-### Igényelt üzleti folyamatok
-### Képernyőtervek
+## Jelenlegi helyzet
+## Jelenlegi üzleti folyamatok modellje
+## Igényelt üzleti folyamatok
+## Képernyőtervek
 
 Számunkra a projekt kinézete mindenféleképpen elsőszámú prioritás.
 A legfontosabb az, hogy a képernyőn lévő elemek ne legyenek összesűrítve.
