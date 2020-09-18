@@ -26,8 +26,34 @@ Számunkra a projekt kinézete mindenféleképpen elsőszámú prioritás.
 A legfontosabb az, hogy a képernyőn lévő elemek ne legyenek összesűrítve.
 A célunk az, hogy minél átláthatóbb és felhasználóbarát legyen.
 
-Ehhez a JavaFX eszközeit alkalmazzuk. Emellett a JavaFX-hez tartozó SceneBuilder is felhasználásra kerül.
+* Ehhez a JavaFX eszközeit alkalmazzuk. Emellett a JavaFX-hez tartozó SceneBuilder is felhasználásra kerül.
 Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem komplikált a használata Java mellett.
 
-Az alkalmazás először is egy bejelentkező ablakkal indul. A bejelentkező ablak tartalmaz egy bemeneti mezőt.
-A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk.
+### Indítóablak
+
+* Az alkalmazás először is egy indítóablakkal indul. A bejelentkező ablak tartalmaz egy bemeneti mezőt.
+A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
+Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged tovább.
+ 
+ * Miután sikerült megadni a felhasználóneved, utána a program felkínálja a lehetőséget,hogy kiválaszd az életkorod és a szókategóriáját.
+ 
+ * Ezután tovább léphetünk a főjátékra. A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
+
+### Játékablak
+ 
+ * A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
+ Ha tartalmazza akkor a már említett rublikák helyére bekerül(nek) az adott betű. Ha nem tartalmazza akkor a hiba jelzésre kerül.
+ A kattintás után az adott betű át lesz húzva és többet nem lehet felhasználni.
+ 
+ * Játék lefolyása alatt a felhasználónak lehetősége van arra, hogy a játékot félbeszakítsa a játékot.
+ Ha a hibák összegyűlnek (11) akkor a játékos elveszíti a játékot. Ezután a program új játékra kéri fel a használót.
+ Ha újra játszani akar a felhasználó, akkor a program egy újabb szót választ ki.
+
+### Eredménylista
+ 
+ * Azonban ha a játékos nem akar többet játszani, akkor a program az eredménylistához vezet.
+  Az eredménylistában láthatóak, majd a játékos neve, a győzelmeinek száma, a játékos korosztálya és a kitalált szó kategóriája.
+  
+ * Emellett lesz egy gomb ami vissza visz a játékba, ha a felhasználó újra játszani szeretne.
+ 
+
