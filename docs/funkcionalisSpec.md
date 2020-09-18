@@ -1,4 +1,4 @@
-#Funkcionális Specifikáció
+# Funkcionális Specifikáció
 ## Használati esetek
 A követelmény specifikáció, azon belül is a "Követelménylista" című bekezdése alapján az egyes pontok kifejtésére kerül sor ebben a fejezetben.
 * A programmal lehetőséget szeretnénk nyújtani az olyan kisgyermekes családoknak, kik hasonló körülmények között élnek, mint e program megrendelője.
