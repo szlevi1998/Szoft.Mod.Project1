@@ -66,24 +66,29 @@ Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem 
 A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
 Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged tovább.
  
- * Miután sikerült megadni a felhasználóneved, utána a program felkínálja a lehetőséget,hogy kiválaszd az életkorod és a szókategóriáját.
+ * Miután sikerült megadni a felhasználóneved, utána a program felkínálja a lehetőséget,hogy kiválaszd a korosztályt és a kitalálandó szókategóriáját és a témakörét.
  
- * Ezután tovább léphetünk a főjátékra. A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
+ * Ezután tovább léphetünk a főjátékra. 
 
 ### Játékablak
  
- * A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
+ * A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
+ A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
  Ha tartalmazza akkor a már említett rublikák helyére bekerül(nek) az adott betű. Ha nem tartalmazza akkor a hiba jelzésre kerül.
  A kattintás után az adott betű át lesz húzva és többet nem lehet felhasználni.
+
+* Segítségünk nem lesz, csak saját magunkra leszünk utalva.
  
  * Játék lefolyása alatt a felhasználónak lehetősége van arra, hogy a játékot félbeszakítsa a játékot.
- Ha a hibák összegyűlnek (11) akkor a játékos elveszíti a játékot. Ezután a program új játékra kéri fel a használót.
+ 
+ * Ha a hibák összegyűlnek (11) akkor a játékos elveszíti a játékot. Ezután a program új játékra kéri fel a használót.
+ A hibázások után majd egy ábrát láthatunk, ami mindig frissülni fog, ha újra hibás betűt választunk.
  Ha újra játszani akar a felhasználó, akkor a program egy újabb szót választ ki.
 
 ### Eredménylista
  
  * Azonban ha a játékos nem akar többet játszani, akkor a program az eredménylistához vezet.
-  Az eredménylistában láthatóak, majd a játékos neve, a győzelmeinek száma, a játékos korosztálya és a kitalált szó kategóriája.
+  Az eredménylistában láthatóak, majd a játékos neve, a győzelmeinek száma.
   
  * Emellett lesz egy gomb ami vissza visz a játékba, ha a felhasználó újra játszani szeretne.
  
