@@ -24,6 +24,8 @@ Az adatbáziban tervezzük külön, korosztályonként ezen belül.
 A rendszer egy alap csomaggal indul, és ezt továbbfejleszhető
 mi az amit már felhasznált és mi az amit nem
 bizonyos kategóriából elfogyott a szó, akkor azt ne mutassa
+
+![Kép az adatbázisról: ](photos/adatb.png)
 ## Projectmunkások és felelősségeik
 ## Ütemterv
 ## Mérföldkövek
