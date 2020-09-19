@@ -72,6 +72,19 @@ hasznalt BOOLEAN     |
 ## Projectmunkások és felelősségeik
 ## Ütemterv
 ## Mérföldkövek
+A program elkészítésének főbb mérföldkövei:
+* A Trelloban való regisztráció, illetve ismerkedés a használatával
+* Githubon a git repository elkészítése
+* A tagok hozzárendelése git-hez és a trello-hoz
+* A követelmény specifikáció megírása
+* A funkcionális specifikáció megírása
+* A rendszerterv megírása
+* A program fejlesztésének megkezdése
+* A program JavaFX UI-jának elkészítése
+* A program adatbázisának elkészítése
+* A program controllerének elkészítése
+* A program tesztelése
+* A program bemutatása
 ## Üzleti szereplők
 ## Üzleti folyamatok
 ## Üzleti entitások
@@ -115,6 +128,7 @@ User:
 * nyert
 
 **Modell:**
+
 ![Kép az adatbázisról: ](photos/adatb.png)
 
 Szavak               |   User              |   Kategória   | Korosztaly
