@@ -20,10 +20,40 @@ Mai rohanó és fejlett világunkban az emberek többségében teljesen megvált
 ## A rendszer célja
 ## A project tervezete
 ## A rendszer felépítése
-Az adatbáziban tervezzük külön, korosztályonként ezen belül.
-A rendszer egy alap csomaggal indul, és ezt továbbfejleszhető
-mi az amit már felhasznált és mi az amit nem
-bizonyos kategóriából elfogyott a szó, akkor azt ne mutassa
+Az adatbázis kapcsolathoz szükséges egy adatbázis connection osztály,
+amely létrehozza, fenntartja, és zárja az adatbáziskapcsolatot.
+A felhasználóval való kommunikációt javafx-ben íródott interface valósítja
+meg, ezek praktikusan külső fájlokból, és forrásból módosított részekből
+állnak.
+Az adatbázis három lényeges táblája a korosztály, a kategória és a user
+tábla lesz.A korosztály és a kategória tábla közti kapcsolatot egy másik,
+táblával, egy kapcsolótáblával oldottuk meg. Ez a tábla az általunk az
+adatbázisba bevitt szavakat fogja tárolni, és hogy kiszűrjük, hogy egy
+szó egy játékosnál csak egyszer szerepeljen, erre hoztuk létre a táblában
+a hasznalt boolean típust. Ez majd True-ra vált minden olyan szó mellett,
+amelyet már megpróbáltuk kitalálni, függetlenül attól, hogy az eltalálás
+sikeres volt e vagy nem. A korosztály táblában lévő leírás szolgál majd
+a 3 korosztálytípus, fiatal, középkorú és idős tárolására. A kategória
+táblában szereplő névben lesznek tárolva a kategóriák nevei. Az utolsó táblában,
+a userben pedig a leaderboardhoz szükséges adatokat fogjuk eltárolni.
+A játék végén lesz ez megtekinthető, mégpedig a névben a már megadott
+összes játékos neve mellett a játszott és nyert menetek számát láthatjuk majd.
+A kezdetekben a kategóriák száma és a tartalmazott szavak limitáltak 
+lesznek, ez a jövőben egy továbbfejleszthető opcióként tartjuk számon,
+függően az érdeklődéstől.
+
+A program controller részének megvalósítását Java programozási nyelven terveztük el.
+A projekthez továbbá felhasználtuk a Maven nevű projekt menedzsment eszköztárat is.
+
+Szavak               |   Korosztaly        |   Kategória   | User
+---------------------|---------------------|---------------|-----
+ID primary key       | ID primary key      | ID primary key| ID primary key
+fk_korosztaly INTEGER| leiras VARCHAR      |neve VARCHAR   | nev VARCHAR
+fk_kategoria INTEGER |
+szo VARCHAR          |
+hasznalt BOOLEAN     |
+
+Másképpen az adatbázis:
 
 ![Kép az adatbázisról: ](photos/adatb.png)
 ## Projectmunkások és felelősségeik
