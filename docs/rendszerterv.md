@@ -45,12 +45,12 @@ függően az érdeklődéstől.
 A program controller részének megvalósítását Java programozási nyelven terveztük el.
 A projekthez továbbá felhasználtuk a Maven nevű projekt menedzsment eszköztárat is.
 
-Szavak               |   Korosztaly        |   Kategória   | User
+Szavak               |   User              |   Kategória   | Korosztaly
 ---------------------|---------------------|---------------|-----
 ID primary key       | ID primary key      | ID primary key| ID primary key
-fk_korosztaly INTEGER| leiras VARCHAR      |neve VARCHAR   | nev VARCHAR
-fk_kategoria INTEGER |
-szo VARCHAR          |
+fk_korosztaly INTEGER| nev VARCHAR         |neve VARCHAR   | leiras VARCHAR
+fk_kategoria INTEGER | jatszott INTEGER    |
+szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
 
 Másképpen az adatbázis:
