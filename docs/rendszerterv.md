@@ -69,9 +69,6 @@ fk_kategoria INTEGER | jatszott INTEGER    |
 szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
 
-Másképpen az adatbázis:
-
-![Kép az adatbázisról: ](photos/adatb.png)
 ## Projectmunkások és felelősségeik
 ## Ütemterv
 ## Mérföldkövek
@@ -94,6 +91,39 @@ Másképpen az adatbázis:
 ## Rendszer bővíthetősége
 ## Biztonsági funkciók
 ## Adatbázis terv
+A program adatbázisát 4 tábla alkotja:
+
+Korosztály:
+* ID
+* leiras
+
+Szavak:
+* ID
+* fk_korosztaly
+* fk_kategoria
+* szo
+* hasznalt
+
+Kategória:
+* ID
+* neve
+
+User:
+* ID
+* nev
+* jatszott
+* nyert
+
+**Modell:**
+![Kép az adatbázisról: ](photos/adatb.png)
+
+Szavak               |   User              |   Kategória   | Korosztaly
+---------------------|---------------------|---------------|-----
+ID primary key       | ID primary key      | ID primary key| ID primary key
+fk_korosztaly INTEGER| nev VARCHAR         |neve VARCHAR   | leiras VARCHAR
+fk_kategoria INTEGER | jatszott INTEGER    |
+szo VARCHAR          | nyert INTEGER       |
+hasznalt BOOLEAN     |
 ## Logikai adatmodell
 ## Implementációs terv
 ## Perzisztencia-osztályok
