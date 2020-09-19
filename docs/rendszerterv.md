@@ -23,6 +23,18 @@ A rendszerünk célja a régi papír és toll alapú játékok modernizálása,
 embereket a számítógéphez. A programunk egy JavaFX felhasználói felülettel
 és SQL adatbázis rendszerrel fog működni.
 ## A project tervezete
+A szoftver egy offline működő akasztófa játék lesz. Megalkotáskor céljaink
+között szerepelt, hogy a program Linux és szintúgy Windows rendszereken
+is probléma nélkül fusson.A megrendelő a gépe hardver specifikációi is
+tudomásunkra adta, miszerint összesen 4GB DDR4-es memória, AMD FX-8120 3.1GHz
+típusú processzorból, AMD Radeon R9 270X videókártyából áll, viszont az
+internetelérés még nem biztosított. Az adattárolás egy H2 adatbázis
+fogja biztosítani. Itt tárolódik majd a leaderboard, a korosztály és
+kategória kiválasztásához szükséges adatok. A rendszer eleinte mivel még
+csak béta verzióban fog működni, nem fog tartalmazni különösebb biztonsági
+megoldásokat, ezért a játék indulásakor még csak egy felhasználónévvel
+azonosítjuk magunkat. A rendszer a későbbiekben különböző támogatásokra,
+és fejlesztésekre szorul, amit havonta fogunk elvégezni rajta.
 ## A rendszer felépítése
 Az adatbázis kapcsolathoz szükséges egy adatbázis connection osztály,
 amely létrehozza, fenntartja, és zárja az adatbáziskapcsolatot.
