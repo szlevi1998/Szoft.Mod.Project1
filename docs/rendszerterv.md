@@ -18,6 +18,10 @@ Mai rohanó és fejlett világunkban az emberek többségében teljesen megvált
  A gépeket és a hozzá való eszközöket az önkormányzat biztosította a családok számára.
  Az első szerencsések között van e akasztófa játék megrendelője is.
 ## A rendszer célja
+A rendszerünk célja a régi papír és toll alapú játékok modernizálása,
+így védve a földet a fölösleges papírfelhasználástól, és szokatva az 
+embereket a számítógéphez. A programunk egy JavaFX felhasználói felülettel
+és SQL adatbázis rendszerrel fog működni.
 ## A project tervezete
 ## A rendszer felépítése
 Az adatbázis kapcsolathoz szükséges egy adatbázis connection osztály,
