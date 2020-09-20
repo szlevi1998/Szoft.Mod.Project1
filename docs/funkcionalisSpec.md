@@ -26,20 +26,24 @@ családoknak, kik hasonló körülmények között élnek, mint e program megren
  való függetlenedés ötlete járt a fejünkben. Ezért ez a program még a béta 
  verzióban internet nélkül fog működni.
 * A program elindítása után, az alábbi lehetőségeink lesznek:
-
+    
+    * A játékos nevének megadása az erre kijelölt helyen, ezután az alábbi
+    játéklehetőségek lesznek.
     * A játék képes lesz előre megadott korosztály opciót nyújtani a felhasználónak,
-     hogy minden egyes korosztály szabadidejében megtalálja a kikapcsolódási lehetőséget offline, a gép előtt ülve is.
-    * Tartalmazni fog még kategória fület is, amiben kiválaszthatjuk a számunkra
-     leginkább megfelelő kategóriát, amiben igazán otthon érezzük magunkat.
-    * További szűrési lehetőséget nyújt majd a témakör opció, mellyel tovább 
-    növelhetjük esélyünket a játék által generált szó eltalálására és így az eredménytáblán megcélzott álomként számontartott első hely megszerzésére.
-    * Mellesleg a játék csak bizonyos hibázási lehetőséget enged, ezáltal valami
-     kihívási lehetőséget tartogatva magában, hogy a cél nem a tippelgetés lesz, hanem az általunk bírtoklott tudás használata.
+     hogy minden egyes korosztály szabadidejében megtalálja a kikapcsolódási
+     lehetőséget offline, a gép előtt ülve is.
+    * Tartalmazni fog még kategória fület is, amiben kiválaszthatjuk a
+    számunkra leginkább megfelelő kategóriát, amiben igazán otthon érezzük
+    magunkat.
+    * Mellesleg a játék csak bizonyos hibázási lehetőséget enged, ezáltal
+     valami kihívási lehetőséget tartogatva magában, hogy a cél nem a
+     tippelgetés lesz, hanem az általunk bírtoklott tudás használata.
     *  Hibajelzésként a játék minden egyes hiba után másik ábrát fog mutatni a 
     felhasználónak, így az utolsó hibázás után egy felakasztott bábút láthatunk.
     
     * Minden kör végén a játék fel fogja ajánlani a felhasználó számára a következő opciókat:
-        * Kilépési lehetőség, ha már unjuk a játékot akkor nyugodtan félbehagyhatjuk.
+        * Kilépési lehetőség, ha már unjuk a játékot akkor nyugodtan
+        félbehagyhatjuk.
         
         * Újrakezdési lehetőség, a játék újrakezdéséhez nem kell mindig előről 
         elindítanunk az alkalmazást, csak használjuk majd ezt a funkciót.
@@ -104,14 +108,23 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
   
   * A legutolsó folyamat a programban az eredménylista megjelenítése.
   
-  * Az eredménylista az alábbi funkciókat tartalmazza:
-   * Megjeleníti a játékos nevét és győzelmeinek számát.
-   * Visszaugró gomb a játékhoz.
-   
-  * Megtekinthetjük itt a játékosok listáját és a győzelmek számát.
+  * Az eredménylista az alábbi funkcigyőzelmeinek számát.
+                                        * Visszaugró gomb a játékhoz.
+                                        
+                                       * Megtekinthetjük itt a játékosokókat tartalmazza:
+   * Megjeleníti a játékos nevét és  listáját és a győzelmek számát.
   * A visszaugró gombbal játszhatunk újra, az előző beállítások alapján.  
 
 ## Igényelt üzleti folyamatok
+
+* A programot Java nyelven írjuk, tartozni fog még hozzá egy adatbázis és egy teljes UI felület a JavaFX és a SceneBuilder felhasználásával.
+* A játék főmenüjében megadhatjuk a nevünket, a kategóriát amiben játszani szeretnénk, a korosztályt, valamint elérhető lesz egy leaderborad és a kilépés gomb.
+* A játék letisztult, egyszerűsített felülettel fog rendelkezni, ezzel megkönnyítve a felhasználók dolgát, nem fog kétségeket kiváltani az átlagos felhasználóban, hiszen a cél az, hogy minnél többen tudjanak vele játszani, a lehető legkönnyebben.
+* A képen rublikák lesznek láthatók, amelyek az adott szó betűit tárolják el, a betű megadása után a rendszer ellenőrzi, hogy az adott betű szerepel-e a szóban vagy sem(hiba jelzés).
+* A játék bizonyos mennyiségű hiba után automatikusan véget fog érni, de lesz lehetőségünk megszakításra is.
+* A játék befejeztével elénk fog tárulni a végeredmény tábla(leaderboard), amely tartalmazni fogja a felhasználók nevét, összes játszmáik számát és a győzelmeiknek számát(kitalált szavak száma).
+* Ezekkel a funciókkal képesek vagyunk biztosítani a játék megismerését, fennmaradását a fiatalabbak számára is.
+
 ## Képernyőtervek
 
 Számunkra a projekt kinézete mindenféleképpen elsőszámú prioritás.

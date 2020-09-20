@@ -18,10 +18,20 @@ Mai rohanó és fejlett világunkban az emberek többségében teljesen megvált
  A gépeket és a hozzá való eszközöket az önkormányzat biztosította a családok számára.
  Az első szerencsések között van e akasztófa játék megrendelője is.
 ## A rendszer célja
-A rendszerünk célja a régi papír és toll alapú játékok modernizálása,
-így védve a földet a fölösleges papírfelhasználástól, és szokatva az 
-embereket a számítógéphez. A programunk egy JavaFX felhasználói felülettel
-és SQL adatbázis rendszerrel fog működni.
+A rendszer célja, hogy az újonnan beütött világjárvány (amit csak COVID-19-ként
+emlegetnek) miatt az életünk teljesen megváltozott. Kiszámíthatalan, hogy
+mikor hoznak újabb, az év elejihez hasonló rendeletet, amivel korlátozzák
+az emberek mozgását, vagy akár az egész országot bezárják. Ilyen helyzetben
+a legfőbb cél az alkalmazkodás, az előre felkészülés, és picit a jövőbe
+látás is. A fuvarozó cégek sem úgy teljesítenek a járvány miatt, ahogy
+előtte, így a papír és toll ellátás sem biztosított már annyira, nem 
+beszélve az inflációról. Ezáltal a mi rendszerünk célja régi papír és
+toll alapú játékok modernizálása, mivel amúgy is mindenki otthonról
+dolgozik, az ilyesfajta programokkal pedig a gyerekeket le lehet foglalni,
+míg a szülő letölti a 8 - 10 órás munkaidejét home officeban. Nem is beszélve
+arról, hogy védve a földet a fölösleges papírfelhasználástól, és szokatva az 
+időseket, fiatalokat egyaránt a számítógéphez. A programunk egy JavaFX
+felhasználói felülettel és SQL adatbázis rendszerrel fog működni.
 ## A project tervezete
 A szoftver egy offline működő akasztófa játék lesz. Megalkotáskor céljaink
 között szerepelt, hogy a program Linux és szintúgy Windows rendszereken
@@ -70,7 +80,27 @@ szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
 
 ## Projectmunkások és felelősségeik
+
+A projektek négy személy készítette aki teljesen azonos pozícióban szerepelnek. 
+
+Név                  |   Pozíció         
+---------------------|------
+Udvardy Marton       | Szoftverfejlesztő     
+Szűcs Levente        | Szoftverfejlesztő       
+Antal Balázs         | Szoftverfejlesztő   
+Nagy Martin          | Szoftverfejlesztő      
+
+
 ## Ütemterv
+
+ * 2020.09.07 (Hétfő) - 2020.09.14 (Hétfő) között kell elkezdezni és befejezni a Követelmény Specifikációnak részt.
+ 
+ * 2020.09.14 (Hétfő) - 2020.09.21 (Hétfő) között kell kész lennie a Funkcionális Specifikációnak és a Rendszertervnek
+ 
+ * 2020.09.21 (Hétfő) - 2020.10.05 (Hétfő) között kell elkezdeni illetve befejezni a programot, ez idő alatt kell a teszteket végrehajtani.
+ 
+ * 2020.09.05 (Hétfő) - Program bemutatás, kiértékelése.
+ 
 ## Mérföldkövek
 A program elkészítésének főbb mérföldkövei:
 * A Trelloban való regisztráció, illetve ismerkedés a használatával
@@ -103,6 +133,13 @@ A program elkészítésének főbb mérföldkövei:
 ## Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
 ## Rendszer bővíthetősége
 ## Biztonsági funkciók
+A rendszer még a béta verzióban indul, így ehhez még biztonsági funkciót
+nem tervezett a csapatunk. A későbbiekben a havonta elvégzendő tesztelések
+és fejlesztések között, mint cél szerepel, hogy a játékot átírjuk online-ra
+majd azon a felületen már felhasználónév és jelszó párosítással kelljen
+belépni. A jelszavak természetesen itt már titkosítva lesznek, hogy
+megelőzzük a különböző visszaéléseket. Annyit még megemlítenék, hogy 
+a program készítése során a jobb kód reményében SonarLint-et alkalmazni fogunk.
 ## Adatbázis terv
 A program adatbázisát 4 tábla alkotja:
 
