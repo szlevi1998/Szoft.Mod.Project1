@@ -26,20 +26,24 @@ családoknak, kik hasonló körülmények között élnek, mint e program megren
  való függetlenedés ötlete járt a fejünkben. Ezért ez a program még a béta 
  verzióban internet nélkül fog működni.
 * A program elindítása után, az alábbi lehetőségeink lesznek:
-
+    
+    * A játékos nevének megadása az erre kijelölt helyen, ezután az alábbi
+    játéklehetőségek lesznek.
     * A játék képes lesz előre megadott korosztály opciót nyújtani a felhasználónak,
-     hogy minden egyes korosztály szabadidejében megtalálja a kikapcsolódási lehetőséget offline, a gép előtt ülve is.
-    * Tartalmazni fog még kategória fület is, amiben kiválaszthatjuk a számunkra
-     leginkább megfelelő kategóriát, amiben igazán otthon érezzük magunkat.
-    * További szűrési lehetőséget nyújt majd a témakör opció, mellyel tovább 
-    növelhetjük esélyünket a játék által generált szó eltalálására és így az eredménytáblán megcélzott álomként számontartott első hely megszerzésére.
-    * Mellesleg a játék csak bizonyos hibázási lehetőséget enged, ezáltal valami
-     kihívási lehetőséget tartogatva magában, hogy a cél nem a tippelgetés lesz, hanem az általunk bírtoklott tudás használata.
+     hogy minden egyes korosztály szabadidejében megtalálja a kikapcsolódási
+     lehetőséget offline, a gép előtt ülve is.
+    * Tartalmazni fog még kategória fület is, amiben kiválaszthatjuk a
+    számunkra leginkább megfelelő kategóriát, amiben igazán otthon érezzük
+    magunkat.
+    * Mellesleg a játék csak bizonyos hibázási lehetőséget enged, ezáltal
+     valami kihívási lehetőséget tartogatva magában, hogy a cél nem a
+     tippelgetés lesz, hanem az általunk bírtoklott tudás használata.
     *  Hibajelzésként a játék minden egyes hiba után másik ábrát fog mutatni a 
     felhasználónak, így az utolsó hibázás után egy felakasztott bábút láthatunk.
     
     * Minden kör végén a játék fel fogja ajánlani a felhasználó számára a következő opciókat:
-        * Kilépési lehetőség, ha már unjuk a játékot akkor nyugodtan félbehagyhatjuk.
+        * Kilépési lehetőség, ha már unjuk a játékot akkor nyugodtan
+        félbehagyhatjuk.
         
         * Újrakezdési lehetőség, a játék újrakezdéséhez nem kell mindig előről 
         elindítanunk az alkalmazást, csak használjuk majd ezt a funkciót.
