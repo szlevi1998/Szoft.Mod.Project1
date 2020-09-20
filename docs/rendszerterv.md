@@ -180,6 +180,8 @@ ez bővítésre kerül. Egy user indítás után tud saját nevet megadni, kateg
 amit a rendszer észlel és jelez. Valamint egy leaderboardban tárolódnak
 az eredményeik, ami minden játék végén megtekinthető. 
 ## Rendszerhasználati esetek és lefutásaik
+
+![Kép az adatbázisról: ](photos/diagram2.png)
 ## Fizikai környezet
 
 * AMD FX-8120 processzor
