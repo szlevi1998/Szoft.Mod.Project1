@@ -124,6 +124,13 @@ A program elkészítésének főbb mérföldkövei:
 ## Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
 ## Rendszer bővíthetősége
 ## Biztonsági funkciók
+A rendszer még a béta verzióban indul, így ehhez még biztonsági funkciót
+nem tervezett a csapatunk. A későbbiekben a havonta elvégzendő tesztelések
+és fejlesztések között, mint cél szerepel, hogy a játékot átírjuk online-ra
+majd azon a felületen már felhasználónév és jelszó párosítással kelljen
+belépni. A jelszavak természetesen itt már titkosítva lesznek, hogy
+megelőzzük a különböző visszaéléseket. Annyit még megemlítenék, hogy 
+a program készítése során a jobb kód reményében SonarLint-et alkalmazni fogunk.
 ## Adatbázis terv
 A program adatbázisát 4 tábla alkotja:
 
