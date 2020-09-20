@@ -173,6 +173,12 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 * A jelenleg ismert játék felületének egy modernizált, gépi változatának létrehozása.
 
 ## Rendszerszereplők
+A jelenlegi rendszerben a rendszerszereplők nem mások, mint a rendszer
+használói vagyis a userek. A játék során limitált lehetőségük van, de később
+ez bővítésre kerül. Egy user indítás után tud saját nevet megadni, kategóriát
+és korosztályt választani. Lehetősége van a játék közben bizonyos hibázásra,
+amit a rendszer észlel és jelez. Valamint egy leaderboardban tárolódnak
+az eredményeik, ami minden játék végén megtekinthető. 
 ## Rendszerhasználati esetek és lefutásaik
 ## Menü hierarchiák
 ## Fizikai környezet
