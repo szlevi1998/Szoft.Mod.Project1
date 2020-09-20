@@ -153,17 +153,17 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
 
 * Segítségünk nem lesz, csak saját magunkra leszünk utalva.
  
- * Játék lefolyása alatt a felhasználónak lehetősége van arra, hogy a játékot félbeszakítsa a játékot.
+ * A játék lefolyása alatt a felhasználónak lehetősége van arra, hogy félbeszakítsa a játékot.
  
- * Ha a hibák összegyűlnek (11) akkor a játékos elveszíti a játékot. Ezután a program új játékra kéri fel a használót.
+ * Ha a hibák összegyűlnek (11) akkor a játékos elveszíti a játékot. Ezután a program új játékra kéri fel a felhasználót.
  A hibázások után majd egy ábrát láthatunk, ami mindig frissülni fog, ha újra hibás betűt választunk.
  Ha újra játszani akar a felhasználó, akkor a program egy újabb szót választ ki.
 
 ### Eredménylista
  
  * Azonban ha a játékos nem akar többet játszani, akkor a program az eredménylistához vezet.
-  Az eredménylistában láthatóak, majd a játékos neve, a győzelmeinek száma.
+  Az eredménylistában láthatóak, majd a játékos neve, összes játékainak száma, a győzelmeinek száma.
   
- * Emellett lesz egy gomb ami vissza visz a játékba, ha a felhasználó újra játszani szeretne.
+ * Emellett lesz egy gomb ami visszavisz a játékba, ha a felhasználó újra játszani szeretne.
  
 
