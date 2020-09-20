@@ -122,6 +122,25 @@ Természetesen ha egy adott gépen már telepítve van a program ott már egyéb
 Nem csak gyerekek játszhatnak hanem akár felnőttek is vele, korhatár nélküli a játék szóval bárki aki késztetést érez affelől, hogy játszon egy jót.
 
 ## Üzleti folyamatok
+
+Maga a folyamat igen egyszerű és nem túl komplikált.
+
+ * Játék feltelepítése .
+ 
+ * Játék elindítása.
+ 
+ * Első ablakban kapni fogunk egy kis rublikát amibe a felhasználónevünket írjuk be, például : Martin97.
+ 
+ * Második ablakba két dolgot tudunk kiválasztani.
+    * Korosztály : Fiatal, középkorú, idős.
+    * Kategória  : Madár,tárgy stb..
+
+ * Kezdődik a játék, a cél, hogy kitaláljuk a keresett szót.
+ 
+ * Nyerés vagy vesztéstől függetlenül :
+   * Vissza lehet térni a játék elejére és újrapróbálkozni.
+   * Megnézni a ranglistát.
+
 ## Üzleti entitások
 ## Követelmények
 
