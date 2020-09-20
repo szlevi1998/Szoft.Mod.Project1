@@ -176,6 +176,12 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 ## Rendszerhasználati esetek és lefutásaik
 ## Menü hierarchiák
 ## Fizikai környezet
+
+* AMD FX-8320 processzor
+* 4GB DDR4 memória
+* Radeon R9 270X videokártya
+* 1GB szabad tárhely
+
 ## Fejlesztői eszközök
 A project során a következőket fogjuk használni:
 * Java
