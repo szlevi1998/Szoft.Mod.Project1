@@ -125,9 +125,18 @@ Nem csak gyerekek játszhatnak hanem akár felnőttek is vele, korhatár nélkü
 ## Üzleti entitások
 ## Követelmények
 
-A program célja a klasszikus papír alapú akasztófa játék leváltása.
+A program célja a klasszikus papír alapú akasztófa játék leváltása. A jelenlegi papír-ceruza segítségével játszott játék digitalizálása.
+Mindezt egy egyszerűbb, modernebb kezelhetőség érdekében, valamint a környezettudatosság nevében.
+Célja az idő és energia, valamint a belefektetett pénz megspórolása, valamint a járvány ideje alatt arra is tekintettel voltunk, hogy ne kelljen a játékhoz elhagyni otthonunk.
 
 ## Funkcionális követelmények
+
+* Mindenki számára könnyen és egyszerűen kezelhető program.
+* Jól átlátható, letisztult felhasználói felület.
+* Jól átlátható adatbázis kezelés.
+* Egyszerű lekérdezések lebonyolítása.
+* Könnyed adatfelvétel és módosítás.
+
 ## Nem funkcionális követelmények
 ## Funkcionális terv
 ## Rendszerszereplők
