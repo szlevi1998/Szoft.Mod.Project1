@@ -183,7 +183,6 @@ fk_korosztaly INTEGER| nev VARCHAR         |neve VARCHAR   | leiras VARCHAR
 fk_kategoria INTEGER | jatszott INTEGER    |
 szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
-## Logikai adatmodell
 ## Implementációs terv
 ## Perzisztencia-osztályok
 ## Üzleti logika osztályai
