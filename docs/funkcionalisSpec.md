@@ -108,14 +108,23 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
   
   * A legutolsó folyamat a programban az eredménylista megjelenítése.
   
-  * Az eredménylista az alábbi funkciókat tartalmazza:
-   * Megjeleníti a játékos nevét és győzelmeinek számát.
-   * Visszaugró gomb a játékhoz.
-   
-  * Megtekinthetjük itt a játékosok listáját és a győzelmek számát.
+  * Az eredménylista az alábbi funkcigyőzelmeinek számát.
+                                        * Visszaugró gomb a játékhoz.
+                                        
+                                       * Megtekinthetjük itt a játékosokókat tartalmazza:
+   * Megjeleníti a játékos nevét és  listáját és a győzelmek számát.
   * A visszaugró gombbal játszhatunk újra, az előző beállítások alapján.  
 
 ## Igényelt üzleti folyamatok
+
+* A programot Java nyelven írjuk, tartozni fog még hozzá egy adatbázis és egy teljes UI felület a JavaFX és a SceneBuilder felhasználásával.
+* A játék főmenüjében megadhatjuk a nevünket, a kategóriát amiben játszani szeretnénk, a korosztályt, valamint elérhető lesz egy leaderborad és a kilépés gomb.
+* A játék letisztult, egyszerűsített felülettel fog rendelkezni, ezzel megkönnyítve a felhasználók dolgát, nem fog kétségeket kiváltani az átlagos felhasználóban, hiszen a cél az, hogy minnél többen tudjanak vele játszani, a lehető legkönnyebben.
+* A képen rublikák lesznek láthatók, amelyek az adott szó betűit tárolják el, a betű megadása után a rendszer ellenőrzi, hogy az adott betű szerepel-e a szóban vagy sem(hiba jelzés).
+* A játék bizonyos mennyiségű hiba után automatikusan véget fog érni, de lesz lehetőségünk megszakításra is.
+* A játék befejeztével elénk fog tárulni a végeredmény tábla(leaderboard), amely tartalmazni fogja a felhasználók nevét, összes játszmáik számát és a győzelmeiknek számát(kitalált szavak száma).
+* Ezekkel a funciókkal képesek vagyunk biztosítani a játék megismerését, fennmaradását a fiatalabbak számára is.
+
 ## Képernyőtervek
 
 Számunkra a projekt kinézete mindenféleképpen elsőszámú prioritás.
