@@ -116,6 +116,11 @@ A program elkészítésének főbb mérföldkövei:
 * A program tesztelése
 * A program bemutatása
 ## Üzleti szereplők
+
+A célközönség akik ezzel a játékkal fognak játszani az internet nélkül maradt gyerekek, akik szeretnék kipróbálni az akasztófa játékot egy számítógépen.
+Természetesen ha egy adott gépen már telepítve van a program ott már egyéb barátok,ismerősök is tudnak rajta játszani.
+Nem csak gyerekek játszhatnak hanem akár felnőttek is vele, korhatár nélküli a játék szóval bárki aki késztetést érez affelől, hogy játszon egy jót.
+
 ## Üzleti folyamatok
 ## Üzleti entitások
 ## Követelmények
