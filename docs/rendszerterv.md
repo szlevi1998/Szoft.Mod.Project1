@@ -177,6 +177,10 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 ## Menü hierarchiák
 ## Fizikai környezet
 ## Fejlesztői eszközök
+A project során a következőket fogjuk használni:
+* Java
+* Maven
+* SQL
 ## Keretrendszer
 ## Architekturális terv
 ## Egy architekturális tervezési minta
