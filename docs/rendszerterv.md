@@ -258,6 +258,9 @@ hasznalt BOOLEAN     |
 ## Implementációs terv
 ## Perzisztencia-osztályok
 ## Üzleti logika osztályai
+
+* Az üzleti logika a háromrétegű adatkezelő alkalmazások középső rétege, amely meghatározza az alkalmazás működésének logikáját.
+
 ## Tesztterv
 
 | Pontok | Leírás |
