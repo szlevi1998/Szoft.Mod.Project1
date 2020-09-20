@@ -17,7 +17,7 @@ Mai rohanó és fejlett világunkban az emberek többségében teljesen megvált
   családnak készítünk offline számítógépes programokat.
  A gépeket és a hozzá való eszközöket az önkormányzat biztosította a családok számára.
  Az első szerencsések között van e akasztófa játék megrendelője is.
-## A rendszer célja
+## 1. A rendszer célja
 A rendszer célja, hogy az újonnan beütött világjárvány (amit csak COVID-19-ként
 emlegetnek) miatt az életünk teljesen megváltozott. Kiszámíthatalan, hogy
 mikor hoznak újabb, az év elejihez hasonló rendeletet, amivel korlátozzák
@@ -32,7 +32,7 @@ míg a szülő letölti a 8 - 10 órás munkaidejét home officeban. Nem is besz
 arról, hogy védve a földet a fölösleges papírfelhasználástól, és szokatva az 
 időseket, fiatalokat egyaránt a számítógéphez. A programunk egy JavaFX
 felhasználói felülettel és SQL adatbázis rendszerrel fog működni.
-## A project tervezete
+## 2. A project tervezete
 A szoftver egy offline működő akasztófa játék lesz. Megalkotáskor céljaink
 között szerepelt, hogy a program Linux és szintúgy Windows rendszereken
 is probléma nélkül fusson.A megrendelő a gépe hardver specifikációi is
@@ -45,7 +45,7 @@ csak béta verzióban fog működni, nem fog tartalmazni különösebb biztonsá
 megoldásokat, ezért a játék indulásakor még csak egy felhasználónévvel
 azonosítjuk magunkat. A rendszer a későbbiekben különböző támogatásokra,
 és fejlesztésekre szorul, amit havonta fogunk elvégezni rajta.
-## A rendszer felépítése
+## 3. A rendszer felépítése
 Az adatbázis kapcsolathoz szükséges egy adatbázis connection osztály,
 amely létrehozza, fenntartja, és zárja az adatbáziskapcsolatot.
 A felhasználóval való kommunikációt javafx-ben íródott interface valósítja
@@ -79,7 +79,7 @@ fk_kategoria INTEGER | jatszott INTEGER    |
 szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
 
-## Projectmunkások és felelősségeik
+## 4. Projectmunkások és felelősségeik
 
 A projektek négy személy készítette aki teljesen azonos pozícióban szerepelnek. 
 
@@ -91,7 +91,7 @@ Antal Balázs         | Szoftverfejlesztő
 Nagy Martin          | Szoftverfejlesztő      
 
 
-## Ütemterv
+## 5. Ütemterv
 
  * 2020.09.07 (Hétfő) - 2020.09.14 (Hétfő) között kell elkezdezni és befejezni a Követelmény Specifikációnak részt.
  
@@ -101,7 +101,7 @@ Nagy Martin          | Szoftverfejlesztő
  
  * 2020.10.05 (Hétfő) - Program bemutatás, kiértékelése.
  
-## Mérföldkövek
+## 6. Mérföldkövek
 A program elkészítésének főbb mérföldkövei:
 * A Trelloban való regisztráció, illetve ismerkedés a használatával
 * Githubon a git repository elkészítése
@@ -115,13 +115,13 @@ A program elkészítésének főbb mérföldkövei:
 * A program controllerének elkészítése
 * A program tesztelése
 * A program bemutatása
-## Üzleti szereplők
+## 7. Üzleti szereplők
 
 A célközönség akik ezzel a játékkal fognak játszani az internet nélkül maradt gyerekek, akik szeretnék kipróbálni az akasztófa játékot egy számítógépen.
 Természetesen ha egy adott gépen már telepítve van a program ott már egyéb barátok,ismerősök is tudnak rajta játszani.
 Nem csak gyerekek játszhatnak hanem akár felnőttek is vele, korhatár nélküli a játék szóval bárki aki késztetést érez affelől, hogy játszon egy jót.
 
-## Üzleti folyamatok
+## 8. Üzleti folyamatok
 
 Maga a folyamat igen egyszerű és nem túl komplikált.
 
@@ -141,20 +141,20 @@ Maga a folyamat igen egyszerű és nem túl komplikált.
    * Vissza lehet térni a játék elejére és újrapróbálkozni.
    * Megnézni a ranglistát.
 
-## Üzleti entitások
+## 9. Üzleti entitások
 
 * Az üzletben résztvevő entitások:
   * A programmal játszó felhasználók
   * Olyan felhasználó aki már játszott a programmal és a neve már az eredménylistában szerpel
   * Olyan felhasználó aki még nem játszik, de majd később fog.
  
-## Követelmények
+## 10. Követelmények
 
 A program célja a klasszikus papír alapú akasztófa játék leváltása. A jelenlegi papír-ceruza segítségével játszott játék digitalizálása.
 Mindezt egy egyszerűbb, modernebb kezelhetőség érdekében, valamint a környezettudatosság nevében.
 Célja az idő és energia, valamint a belefektetett pénz megspórolása, valamint a járvány ideje alatt arra is tekintettel voltunk, hogy ne kelljen a játékhoz elhagyni otthonunk.
 
-## Funkcionális követelmények
+## 11. Funkcionális követelmények
 
 * Mindenki számára könnyen és egyszerűen kezelhető program.
 * Jól átlátható, letisztult felhasználói felület.
@@ -162,48 +162,48 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 * Egyszerű lekérdezések lebonyolítása.
 * Könnyed adatfelvétel és módosítás.
 
-## Nem funkcionális követelmények
+## 12. Nem funkcionális követelmények
 
 * Esztétikus felhasználói felület.
 * Látáskárosultak számára is megfelelő színvilág és betűméretek használata.
 
-## Funkcionális terv
+## 13. Funkcionális terv
 
 * A program célja, hogy az egyke gyerekek, vagy az olyan személyek akiknek nincsenek barátik, vagy az internettel nem rendelkezők is ki tudják próbálni a játékot.
 * A jelenleg ismert játék felületének egy modernizált, gépi változatának létrehozása.
 
-## Rendszerszereplők
+## 14. Rendszerszereplők
 A jelenlegi rendszerben a rendszerszereplők nem mások, mint a rendszer
 használói vagyis a userek. A játék során limitált lehetőségük van, de később
 ez bővítésre kerül. Egy user indítás után tud saját nevet megadni, kategóriát
 és korosztályt választani. Lehetősége van a játék közben bizonyos hibázásra,
 amit a rendszer észlel és jelez. Valamint egy leaderboardban tárolódnak
 az eredményeik, ami minden játék végén megtekinthető. 
-## Rendszerhasználati esetek és lefutásaik
+## 15. Rendszerhasználati esetek és lefutásaik
 
 ![Kép az adatbázisról: ](photos/diagram2.png)
-## Fizikai környezet
+## 16. Fizikai környezet
 
 * AMD FX-8120 processzor
 * 4GB DDR4 memória
 * Radeon R9 270X videokártya
 * 1GB szabad tárhely
 
-## Fejlesztői eszközök
+## 17. Fejlesztői eszközök
 A project során a következőket fogjuk használni:
 * Java
 * Maven
 * SQL
-## Keretrendszer
+## 18. Keretrendszer
 * Java FX
-## Egy architekturális tervezési minta
+## 19. Egy architekturális tervezési minta
 A projekt során az MVC (model-view-control) modellt fogjuk alkalmazni.
 
 **Modell**:
 
 ![Kép az modellről: ](photos/mvc.png)
 
-## Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
+## 20. Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
 
 * A szoftverünk megvalósítása az MVC, magyarul MNV azaz a Modell-Nézet-Vezérlő elveit fogja követni.
 
@@ -224,7 +224,7 @@ A projekt során az MVC (model-view-control) modellt fogjuk alkalmazni.
 * Azzal, hogy ezt a megvalósítást választottuk nagyban megkönnyíti a munkánkat.
 Ez azért van mert ezzel a kódunk sokkal átláthatóbb, nem lesz szerteágazó.
 
-## Képernyőtervek
+## 21. Képernyőtervek
 
 Számunkra a projekt kinézete mindenféleképpen elsőszámú prioritás.
 A legfontosabb az, hogy a képernyőn lévő elemek ne legyenek összesűrítve.
@@ -233,7 +233,7 @@ A célunk az, hogy minél átláthatóbb és felhasználóbarát legyen.
 * Ehhez a JavaFX eszközeit alkalmazzuk. Emellett a JavaFX-hez tartozó SceneBuilder is felhasználásra kerül.
 Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem komplikált a használata Java mellett.
 
-### Indítóablak
+### 22. Indítóablak
 
 * Az alkalmazás először is egy indítóablakkal indul. A bejelentkező ablak tartalmaz egy bemeneti mezőt.
 A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
@@ -243,7 +243,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
  
  * Ezután tovább léphetünk a főjátékra. 
 
-### Játékablak
+### 23. Játékablak
  
  * A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
  A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
@@ -258,7 +258,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
  A hibázások után majd egy ábrát láthatunk, ami mindig frissülni fog, ha újra hibás betűt választunk.
  Ha újra játszani akar a felhasználó, akkor a program egy újabb szót választ ki.
 
-### Eredménylista
+### 24. Eredménylista
  
  * Azonban ha a játékos nem akar többet játszani, akkor a program az eredménylistához vezet.
   Az eredménylistában láthatóak, majd a játékos neve, összes játékainak száma, a győzelmeinek száma.
@@ -273,7 +273,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
 
 ![Kép az modellről: ](photos/LosingState.png)
  
-## Rendszer bővíthetősége
+## 25. Rendszer bővíthetősége
 
 Természetesen a késöbbiekben bővíthető lesz a program.
 A program fejlesztése és bővítése függeni fog a felhasználók számától illetve kérvényeiktől is.
@@ -281,7 +281,7 @@ Amennyiben jópár kérvény jön be egy-egy kérésről akkor fontolóra vessz�
 Nem csak javaslatokra hanem saját elképzeléseink hatására is lehetséges a bővítés.
 Mivel ez egy jelenleg kiadott program lesz így lehetséges a korai frissítés.
 
-## Biztonsági funkciók
+## 26. Biztonsági funkciók
 A rendszer még a béta verzióban indul, így ehhez még biztonsági funkciót
 nem tervezett a csapatunk. A későbbiekben a havonta elvégzendő tesztelések
 és fejlesztések között, mint cél szerepel, hogy a játékot átírjuk online-ra
@@ -289,7 +289,7 @@ majd azon a felületen már felhasználónév és jelszó párosítással kellje
 belépni. A jelszavak természetesen itt már titkosítva lesznek, hogy
 megelőzzük a különböző visszaéléseket. Annyit még megemlítenék, hogy 
 a program készítése során a jobb kód reményében SonarLint-et alkalmazni fogunk.
-## Adatbázis terv
+## 27. Adatbázis terv
 A program adatbázisát 4 tábla alkotja:
 
 Korosztály:
@@ -324,7 +324,7 @@ fk_korosztaly INTEGER| nev VARCHAR         |neve VARCHAR   | leiras VARCHAR
 fk_kategoria INTEGER | jatszott INTEGER    |
 szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
-## Implementációs terv
+## 28. Implementációs terv
 A tervezési folyamatban célszerű az általános logikai felépítést mindig
  valamilyen grafikus reprezentációval modellezni, mert az emberi agy
  vizualizált objektumokkal könnyebben dolgozik. Az UML (=Unified Modeling Language),
@@ -333,7 +333,7 @@ A tervezési folyamatban célszerű az általános logikai felépítést mindig
  a használati esetdiagramokat (use case), az adatbázis tervezésnél az adatbázis diagramot,
  az OOP tervezésnél az osztálydiagramot és objektumdiagramot valamint a szekvenciadiagramot,
  aktivitásdiagramot használhatjuk.
-## Üzleti logika osztályai
+## 29. Üzleti logika osztályai
 
 * Az üzleti logika a háromrétegű adatkezelő alkalmazások középső rétege, amely meghatározza az alkalmazás működésének logikáját.
 * A háromrétegű arhcitektúra az alkalmazást három különálló rétegre osztja fel.
@@ -346,7 +346,7 @@ A tervezési folyamatban célszerű az általános logikai felépítést mindig
 * Biztosítja a felhasználó hozzáférését az ügyviteli logika szolgáltatásaihoz.
 * Sohasem kerül közvetlen kapcsolatba az adatbázissal és nem végez semmilyen műveletet az adatokon.
 
-## Tesztterv
+## 30. Tesztterv
 
 | Pontok | Leírás |
 ---------|---------
