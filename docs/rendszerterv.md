@@ -92,6 +92,15 @@ Nagy Martin          | Szoftverfejlesztő
 
 
 ## Ütemterv
+
+ * 2020.09.07 (Hétfő) - 2020.09.14 (Hétfő) között kell elkezdezni és befejezni a Követelmény Specifikációnak részt.
+ 
+ * 2020.09.14 (Hétfő) - 2020.09.21 (Hétfő) között kell kész lennie a Funkcionális Specifikációnak és a Rendszertervnek
+ 
+ * 2020.09.21 (Hétfő) - 2020.10.05 (Hétfő) között kell elkezdeni illetve befejezni a programot, ez idő alatt kell a teszteket végrehajtani.
+ 
+ * 2020.09.05 (Hétfő) - Program bemutatás, kiértékelése.
+ 
 ## Mérföldkövek
 A program elkészítésének főbb mérföldkövei:
 * A Trelloban való regisztráció, illetve ismerkedés a használatával
