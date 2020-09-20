@@ -204,6 +204,26 @@ A projekt során az MVC (model-view-control) modellt fogjuk alkalmazni.
 ![Kép az modellről: ](photos/mvc.png)
 
 ## Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
+
+* A szoftverünk megvalósítása az MVC, magyarul MNV azaz a Modell-Nézet-Vezérlő elveit fogja követni.
+
+* Az alkalmazásunkat több rétegre bontjuk fel, ami a következő: 
+  * megjelenítés 
+  * felhasználói felület
+  * logika
+ 
+ * A megjelenítés az amit a szoftvert használók ténylegesen látnak az alkalmazásból.
+ 
+ * Felhasználói felület amivel a szoftver és a felhasználó "kommunikál".
+ Ez az amivel írányítjuk a "lépéseinket".
+  
+  * A logika az ami a felhasználó által véghezvitt eseményeket, műveleteket dolgozza fel.
+   ami kiválthat további eseménysorozatot, illetve áll a tárolt adatok kezelésével.
+
+
+* Azzal, hogy ezt a megvalósítást választottuk nagyban megkönnyíti a munkánkat.
+Ez azért van mert ezzel a kódunk sokkal átláhatóbb, nem lesz szerteágazó.
+
 ## Képernyőtervek
 
 Számunkra a projekt kinézete mindenféleképpen elsőszámú prioritás.
