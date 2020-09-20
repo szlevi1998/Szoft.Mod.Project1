@@ -86,7 +86,7 @@ A projektek négy személy készítette aki teljesen azonos pozícióban szerepe
 Név                  |   Pozíció         
 ---------------------|------
 Udvardy Marton       | Szoftverfejlesztő     
-Levente Szűcs        | Szoftverfejlesztő       
+Szűcs Levente        | Szoftverfejlesztő       
 Antal Balázs         | Szoftverfejlesztő   
 Nagy Martin          | Szoftverfejlesztő      
 
