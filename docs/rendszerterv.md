@@ -227,7 +227,7 @@ hasznalt BOOLEAN     |
 | Pontok | Leírás |
 ---------|---------
 |01      | A program indítása |
-|02      | A user nevének beadása |
+|02      | A user nevének megadása |
 |03      | Azonos név megadása, mivel egy név egyszer szerepelhet |
 |04      | Korosztályok kiválasztása |
 |05      | Kategóriák kiválasztása |
@@ -235,6 +235,7 @@ hasznalt BOOLEAN     |
 |07      | Egy betű megadásakor, mindenhova beíródik |
 |08      | 11 hiba után megáll a játék |
 |09      | Jól kirajzolódik a hiba ábra |
-|10      | Játék végén leaderboard működik |
-|11      | Játék végén újrakezdés működik |
-|12      | Játék végén kilépés működik |
+|10      | Játék bármikor megszakítható |
+|11      | Játék végén leaderboard működik |
+|12      | Játék végén újrakezdés működik |
+|13      | Játék végén kilépés működik |
