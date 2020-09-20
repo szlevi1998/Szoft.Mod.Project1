@@ -204,3 +204,18 @@ hasznalt BOOLEAN     |
 ## Perzisztencia-osztályok
 ## Üzleti logika osztályai
 ## Tesztterv
+
+| Pontok | Leírás |
+---------|---------
+|01      | A program indítása |
+|02      | A user nevének beadása |
+|03      | Azonos név megadása, mivel egy név egyszer szerepelhet |
+|04      | Korosztályok kiválasztása |
+|05      | Kategóriák kiválasztása |
+|06      | Billentyűzeten egy betű egyszer kattintható |
+|07      | Egy betű megadásakor, mindenhova beíródik |
+|08      | 11 hiba után megáll a játék |
+|09      | Jól kirajzolódik a hiba ábra |
+|10      | Játék végén leaderboard működik |
+|11      | Játék végén újrakezdés működik |
+|12      | Játék végén kilépés működik |
