@@ -119,6 +119,9 @@ A program elkészítésének főbb mérföldkövei:
 ## Üzleti folyamatok
 ## Üzleti entitások
 ## Követelmények
+
+A program célja a klasszikus papír alapú akasztófa játék leváltása.
+
 ## Funkcionális követelmények
 ## Nem funkcionális követelmények
 ## Funkcionális terv
