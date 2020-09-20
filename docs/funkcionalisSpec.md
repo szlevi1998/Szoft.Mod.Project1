@@ -50,6 +50,19 @@ családoknak, kik hasonló körülmények között élnek, mint e program megren
         
 ## Jelenlegi helyzet
 ## Jelenlegi üzleti folyamatok modellje
+
+Az alkalmazásunk számos fontos és praktikus funkciókkal rendelkezik.
+
+Az alkalmazás futtatás után az indítóablak jelenik meg, ahol az adatok felvetéle történik.
+Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázisukban. 
+ 
+* Az indítóablak menüje ezeket a funkciókat tartalmazza:
+  * Felhasználó név megadása
+  * Kitalált szó kategóriájának megválasztása
+  * Korosztály kiválasztása
+  * Alkalmazásból kilépés
+
+
 ## Igényelt üzleti folyamatok
 ## Képernyőtervek
 
