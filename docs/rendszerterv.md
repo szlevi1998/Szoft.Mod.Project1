@@ -180,7 +180,6 @@ ez bővítésre kerül. Egy user indítás után tud saját nevet megadni, kateg
 amit a rendszer észlel és jelez. Valamint egy leaderboardban tárolódnak
 az eredményeik, ami minden játék végén megtekinthető. 
 ## Rendszerhasználati esetek és lefutásaik
-## Menü hierarchiák
 ## Fizikai környezet
 
 * AMD FX-8120 processzor
@@ -317,7 +316,14 @@ fk_kategoria INTEGER | jatszott INTEGER    |
 szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
 ## Implementációs terv
-## Perzisztencia-osztályok
+A tervezési folyamatban célszerű az általános logikai felépítést mindig
+ valamilyen grafikus reprezentációval modellezni, mert az emberi agy
+ vizualizált objektumokkal könnyebben dolgozik. Az UML (=Unified Modeling Language),
+ modellező nyelv segítségével a specifikációt és a tervezést is grafikus
+ formában, diagramok segítségével tudjuk dokumentálni. A követelményspecifikációban
+ a használati esetdiagramokat (use case), az adatbázis tervezésnél az adatbázis diagramot,
+ az OOP tervezésnél az osztálydiagramot és objektumdiagramot valamint a szekvenciadiagramot,
+ aktivitásdiagramot használhatjuk.
 ## Üzleti logika osztályai
 
 * Az üzleti logika a háromrétegű adatkezelő alkalmazások középső rétege, amely meghatározza az alkalmazás működésének logikáját.
