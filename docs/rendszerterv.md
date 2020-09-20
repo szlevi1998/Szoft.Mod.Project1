@@ -70,6 +70,17 @@ szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
 
 ## Projectmunkások és felelősségeik
+
+A projektek négy személy készítette aki teljesen azonos pozícióban szerepelnek. 
+
+Név                  |   Pozíció         
+---------------------|------
+Udvardy Marton       | Szoftverfejlesztő     
+Levente Szűcs        | Szoftverfejlesztő       
+Antal Balázs         | Szoftverfejlesztő   
+Nagy Martin          | Szoftverfejlesztő      
+
+
 ## Ütemterv
 ## Mérföldkövek
 A program elkészítésének főbb mérföldkövei:
