@@ -49,6 +49,24 @@ családoknak, kik hasonló körülmények között élnek, mint e program megren
      * A szoftverben az egyik legfontosabb **funkció**, hogy egy szerethető és könnyen kezelhető felületet nyújtsunk a felhasználóknak.
         
 ## Jelenlegi helyzet
+
+Az akasztófa játék amit szeretnénk ha korszerűsítve lenne igencsak könnyű szabályzattal bír, de a mostani elavult módszerekkel már nehezen követhető a játékmenet vagy akár az egymás közti versengés.
+Jelenleg a játék menete papíralapon játszódik ami nehézségekhez vezet mint például sok tárolnivaló papír illetve eredmények és nehezen átláthatóság.
+Manapság az ismerettségi körünkból már egyre többen próbálnák ki a játékot aminek köszönhetően megnőne a papír kapacítás.
+Ezeknek a gondoknak megfelelően kéne egy új és korszerű játékplatform amivel haladni lehetne a technológiával.
+A játék kidolgozása számítógépre igencsak megkönnyítené a mi dolgunkat, mint felhasználók mivel egy helyen láthatnánk mások eredményeit ami motiváló tudna számunkra lenni.
+Télen akár az időjárás is tud minket korlátozni mivel este sötétben nem lehet papíralapú játékot játszani csak fény mellett ami drága tud lenni.
+
+ * Papíralapú játék
+ 
+ * Ranglista nélküli játék
+ 
+ * Szabályzat nélküli játék
+ 
+ * Adott felszerelés nélkül játszhatatlan játék
+ 
+ * Átláthatatlan játékvezetés
+ 
 ## Jelenlegi üzleti folyamatok modellje
 
 Az alkalmazásunk számos fontos és praktikus funkciókkal rendelkezik.
