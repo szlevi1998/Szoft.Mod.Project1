@@ -176,6 +176,13 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 ## Egy architekturális tervezési minta
 ## Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
 ## Rendszer bővíthetősége
+
+Természetesen a késöbbiekben bővíthető lesz a program.
+A program fejlesztése és bővítése függeni fog a felhasználók számától illetve kérvényeiktől is.
+Amennyiben jópár kérvény jön be egy-egy kérésről akkor fontolóra vesszük a játékba való beillesztését.
+Nem csak javaslatokra hanem saját elképzeléseink hatására is lehetséges a bővítés.
+Mivel ez egy jelenleg kiadott program lesz így lehetséges a korai frissítés.
+
 ## Biztonsági funkciók
 A rendszer még a béta verzióban indul, így ehhez még biztonsági funkciót
 nem tervezett a csapatunk. A későbbiekben a havonta elvégzendő tesztelések
