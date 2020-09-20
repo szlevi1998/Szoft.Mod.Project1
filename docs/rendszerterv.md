@@ -18,10 +18,20 @@ Mai rohanó és fejlett világunkban az emberek többségében teljesen megvált
  A gépeket és a hozzá való eszközöket az önkormányzat biztosította a családok számára.
  Az első szerencsések között van e akasztófa játék megrendelője is.
 ## A rendszer célja
-A rendszerünk célja a régi papír és toll alapú játékok modernizálása,
-így védve a földet a fölösleges papírfelhasználástól, és szokatva az 
-embereket a számítógéphez. A programunk egy JavaFX felhasználói felülettel
-és SQL adatbázis rendszerrel fog működni.
+A rendszer célja, hogy az újonnan beütött világjárvány (amit csak COVID-19-ként
+emlegetnek) miatt az életünk teljesen megváltozott. Kiszámíthatalan, hogy
+mikor hoznak újabb, az év elejihez hasonló rendeletet, amivel korlátozzák
+az emberek mozgását, vagy akár az egész országot bezárják. Ilyen helyzetben
+a legfőbb cél az alkalmazkodás, az előre felkészülés, és picit a jövőbe
+látás is. A fuvarozó cégek sem úgy teljesítenek a járvány miatt, ahogy
+előtte, így a papír és toll ellátás sem biztosított már annyira, nem 
+beszélve az inflációról. Ezáltal a mi rendszerünk célja régi papír és
+toll alapú játékok modernizálása, mivel amúgy is mindenki otthonról
+dolgozik, az ilyesfajta programokkal pedig a gyerekeket le lehet foglalni,
+míg a szülő letölti a 8 - 10 órás munkaidejét home officeban. Nem is beszélve
+arról, hogy védve a földet a fölösleges papírfelhasználástól, és szokatva az 
+időseket, fiatalokat egyaránt a számítógéphez. A programunk egy JavaFX
+felhasználói felülettel és SQL adatbázis rendszerrel fog működni.
 ## A project tervezete
 A szoftver egy offline működő akasztófa játék lesz. Megalkotáskor céljaink
 között szerepelt, hogy a program Linux és szintúgy Windows rendszereken
