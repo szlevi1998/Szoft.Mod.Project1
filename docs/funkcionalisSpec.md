@@ -127,7 +127,7 @@ Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem 
 A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
 Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged tovább.
  
- * Miután sikerült megadni a felhasználóneved, utána a program felkínálja a lehetőséget,hogy kiválaszd a korosztályt és a kitalálandó szókategóriáját és a témakörét.
+ * Miután sikerült megadni a felhasználóneved, utána a program felkínálja a lehetőséget,hogy kiválaszd a korosztályt és a kitalálandó szókategóriáját.
  
  * Ezután tovább léphetünk a főjátékra. 
 
