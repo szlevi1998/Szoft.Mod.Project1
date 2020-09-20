@@ -80,6 +80,23 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
   * Korosztály kiválasztása
   * Alkalmazásból kilépés
 
+* Ezek után a főablakban a játék elkezdésénel a játék úgy fog szót választani, ahogy a felhasználó döntött az indítóablaknál.
+
+* Természetesen a főablak az amely a legtöbb funkciót tartalmazza az alkalmazásunkban.
+
+* Az alábbi folyamatokat és funkciókat tartalmazza a főablak:
+ * A kitalált szavak megjelenítése/ eltakarása
+ * A betűk felhasználása
+ * A hibák jelzése egy bizonyos ábrával
+ * Kilépés gomb a játék félbeszakításhoz  
+ * Újrakezdési lehetőség ha a hibák összegyűlnek
+ * Háttérben a győzelmek számolása. 
+ 
+ * A főablakban kezeljük a felhasználó interakcióit és döntéseit. 
+  A program jelzi ha a játékos jól vagy rosszul tippelt. Abban az esetben ha hibázik akkor hibák jelzésre kerülnek.
+  Ha jól tippelt akkor a betűk megjelennek a kitalált szóban.
+  
+  * A kilépés gomb nem az alkalmazás bezárását jelenti. Ehelyett átírányit minket az eredménylistához.  
 
 ## Igényelt üzleti folyamatok
 ## Képernyőtervek
