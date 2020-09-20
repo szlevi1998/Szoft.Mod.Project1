@@ -196,7 +196,6 @@ A project során a következőket fogjuk használni:
 * SQL
 ## Keretrendszer
 * Java FX
-## Architekturális terv
 ## Egy architekturális tervezési minta
 A projekt során az MVC (model-view-control) modellt fogjuk alkalmazni.
 
