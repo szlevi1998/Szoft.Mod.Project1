@@ -130,6 +130,9 @@ Mindezt egy egyszerűbb, modernebb kezelhetőség érdekében, valamint a körny
 Célja az idő és energia, valamint a belefektetett pénz megspórolása, valamint a járvány ideje alatt arra is tekintettel voltunk, hogy ne kelljen a játékhoz elhagyni otthonunk.
 
 ## Funkcionális követelmények
+
+* Mindenki számára könnyen és egyszerűen kezelhető program.
+
 ## Nem funkcionális követelmények
 ## Funkcionális terv
 ## Rendszerszereplők
