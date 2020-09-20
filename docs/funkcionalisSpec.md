@@ -1,5 +1,5 @@
 # Funkcionális Specifikáció
-## Bevezetés
+## 1. Bevezetés
 Mai rohanó és fejlett világunkban az emberek többségében teljesen megváltoztak
  azon értékrendek, hogy mit tartanak fontosnak és mire tekintenek úgy,
  mintha nem is létezne. Születésünktől fogva a legtöbbünk célja az, hogy 
@@ -17,7 +17,7 @@ Mai rohanó és fejlett világunkban az emberek többségében teljesen megvált
   családnak készítünk offline számítógépes programokat.
  A gépeket és a hozzá való eszközöket az önkormányzat biztosította a családok számára.
  Az első szerencsések között van e akasztófa játék megrendelője is.
-## Használati esetek
+## 2. Használati esetek
 A követelmény specifikáció, azon belül is a "Követelménylista" című bekezdése
 alapján az egyes pontok kifejtésére kerül sor ebben a fejezetben.
 * A programmal lehetőséget szeretnénk nyújtani az olyan kisgyermekes 
@@ -52,7 +52,7 @@ családoknak, kik hasonló körülmények között élnek, mint e program megren
           A tábla elején mindig a legtöbb játékot nyert játékos neve szerepel majd.
      * A szoftverben az egyik legfontosabb **funkció**, hogy egy szerethető és könnyen kezelhető felületet nyújtsunk a felhasználóknak.
         
-## Jelenlegi helyzet
+## 3. Jelenlegi helyzet
 
 Az akasztófa játék amit szeretnénk ha korszerűsítve lenne igencsak könnyű szabályzattal bír, de a mostani elavult módszerekkel már nehezen követhető a játékmenet vagy akár az egymás közti versengés.
 Jelenleg a játék menete papíralapon játszódik ami nehézségekhez vezet mint például sok tárolnivaló papír illetve eredmények és nehezen átláthatóság.
@@ -71,7 +71,7 @@ Télen akár az időjárás is tud minket korlátozni mivel este sötétben nem 
  
  * Átláthatatlan játékvezetés
  
-## Jelenlegi üzleti folyamatok modellje
+## 4. Jelenlegi üzleti folyamatok modellje
 
 Az alkalmazásunk számos fontos és praktikus funkciókkal rendelkezik.
 
@@ -115,7 +115,7 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
    * Megjeleníti a játékos nevét és  listáját és a győzelmek számát.
   * A visszaugró gombbal játszhatunk újra, az előző beállítások alapján.  
 
-## Igényelt üzleti folyamatok
+## 5. Igényelt üzleti folyamatok
 
 * A programot Java nyelven írjuk, tartozni fog még hozzá egy adatbázis és egy teljes UI felület a JavaFX és a SceneBuilder felhasználásával.
 * A játék főmenüjében megadhatjuk a nevünket, a kategóriát amiben játszani szeretnénk, a korosztályt, valamint elérhető lesz egy leaderborad és a kilépés gomb.
@@ -125,7 +125,7 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
 * A játék befejeztével elénk fog tárulni a végeredmény tábla(leaderboard), amely tartalmazni fogja a felhasználók nevét, összes játszmáik számát és a győzelmeiknek számát(kitalált szavak száma).
 * Ezekkel a funciókkal képesek vagyunk biztosítani a játék megismerését, fennmaradását a fiatalabbak számára is.
 
-## Képernyőtervek
+## 6. Képernyőtervek
 
 Számunkra a projekt kinézete mindenféleképpen elsőszámú prioritás.
 A legfontosabb az, hogy a képernyőn lévő elemek ne legyenek összesűrítve.
@@ -134,7 +134,7 @@ A célunk az, hogy minél átláthatóbb és felhasználóbarát legyen.
 * Ehhez a JavaFX eszközeit alkalmazzuk. Emellett a JavaFX-hez tartozó SceneBuilder is felhasználásra kerül.
 Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem komplikált a használata Java mellett.
 
-### Indítóablak
+### 6.1 Indítóablak
 
 * Az alkalmazás először is egy indítóablakkal indul. A bejelentkező ablak tartalmaz egy bemeneti mezőt.
 A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
@@ -144,7 +144,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
  
  * Ezután tovább léphetünk a főjátékra. 
 
-### Játékablak
+### 6.2 Játékablak
  
  * A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
  A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
@@ -159,7 +159,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
  A hibázások után majd egy ábrát láthatunk, ami mindig frissülni fog, ha újra hibás betűt választunk.
  Ha újra játszani akar a felhasználó, akkor a program egy újabb szót választ ki.
 
-### Eredménylista
+### 6.3 Eredménylista
  
  * Azonban ha a játékos nem akar többet játszani, akkor a program az eredménylistához vezet.
   Az eredménylistában láthatóak, majd a játékos neve, összes játékainak száma, a győzelmeinek száma.
