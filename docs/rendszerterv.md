@@ -143,6 +143,10 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 * Látáskárosultak számára is megfelelő színvilág és betűméretek használata.
 
 ## Funkcionális terv
+
+* A program célja, hogy az egyke gyerekek, vagy az olyan személyek akiknek nincsenek barátik, vagy az internettel nem rendelkezők is ki tudják próbálni a játékot.
+* A jelenleg ismert játék felületének egy modernizált, gépi változatának létrehozása.
+
 ## Rendszerszereplők
 ## Rendszerhasználati esetek és lefutásaik
 ## Menü hierarchiák
