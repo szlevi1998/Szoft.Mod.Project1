@@ -233,7 +233,7 @@ A célunk az, hogy minél átláthatóbb és felhasználóbarát legyen.
 * Ehhez a JavaFX eszközeit alkalmazzuk. Emellett a JavaFX-hez tartozó SceneBuilder is felhasználásra kerül.
 Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem komplikált a használata Java mellett.
 
-### 22. Indítóablak
+### 21.1 Indítóablak
 
 * Az alkalmazás először is egy indítóablakkal indul. A bejelentkező ablak tartalmaz egy bemeneti mezőt.
 A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
@@ -243,7 +243,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
  
  * Ezután tovább léphetünk a főjátékra. 
 
-### 23. Játékablak
+### 21.2 Játékablak
  
  * A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
  A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
@@ -258,7 +258,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
  A hibázások után majd egy ábrát láthatunk, ami mindig frissülni fog, ha újra hibás betűt választunk.
  Ha újra játszani akar a felhasználó, akkor a program egy újabb szót választ ki.
 
-### 24. Eredménylista
+### 21.3 Eredménylista
  
  * Azonban ha a játékos nem akar többet játszani, akkor a program az eredménylistához vezet.
   Az eredménylistában láthatóak, majd a játékos neve, összes játékainak száma, a győzelmeinek száma.
@@ -273,7 +273,7 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
 
 ![Kép az modellről: ](photos/LosingState.png)
  
-## 25. Rendszer bővíthetősége
+## 22. Rendszer bővíthetősége
 
 Természetesen a késöbbiekben bővíthető lesz a program.
 A program fejlesztése és bővítése függeni fog a felhasználók számától illetve kérvényeiktől is.
@@ -281,7 +281,7 @@ Amennyiben jópár kérvény jön be egy-egy kérésről akkor fontolóra vessz�
 Nem csak javaslatokra hanem saját elképzeléseink hatására is lehetséges a bővítés.
 Mivel ez egy jelenleg kiadott program lesz így lehetséges a korai frissítés.
 
-## 26. Biztonsági funkciók
+## 23. Biztonsági funkciók
 A rendszer még a béta verzióban indul, így ehhez még biztonsági funkciót
 nem tervezett a csapatunk. A későbbiekben a havonta elvégzendő tesztelések
 és fejlesztések között, mint cél szerepel, hogy a játékot átírjuk online-ra
@@ -289,7 +289,7 @@ majd azon a felületen már felhasználónév és jelszó párosítással kellje
 belépni. A jelszavak természetesen itt már titkosítva lesznek, hogy
 megelőzzük a különböző visszaéléseket. Annyit még megemlítenék, hogy 
 a program készítése során a jobb kód reményében SonarLint-et alkalmazni fogunk.
-## 27. Adatbázis terv
+## 24. Adatbázis terv
 A program adatbázisát 4 tábla alkotja:
 
 Korosztály:
@@ -324,7 +324,7 @@ fk_korosztaly INTEGER| nev VARCHAR         |neve VARCHAR   | leiras VARCHAR
 fk_kategoria INTEGER | jatszott INTEGER    |
 szo VARCHAR          | nyert INTEGER       |
 hasznalt BOOLEAN     |
-## 28. Implementációs terv
+## 25. Implementációs terv
 A tervezési folyamatban célszerű az általános logikai felépítést mindig
  valamilyen grafikus reprezentációval modellezni, mert az emberi agy
  vizualizált objektumokkal könnyebben dolgozik. Az UML (=Unified Modeling Language),
@@ -333,7 +333,7 @@ A tervezési folyamatban célszerű az általános logikai felépítést mindig
  a használati esetdiagramokat (use case), az adatbázis tervezésnél az adatbázis diagramot,
  az OOP tervezésnél az osztálydiagramot és objektumdiagramot valamint a szekvenciadiagramot,
  aktivitásdiagramot használhatjuk.
-## 29. Üzleti logika osztályai
+## 26. Üzleti logika osztályai
 
 * Az üzleti logika a háromrétegű adatkezelő alkalmazások középső rétege, amely meghatározza az alkalmazás működésének logikáját.
 * A háromrétegű arhcitektúra az alkalmazást három különálló rétegre osztja fel.
@@ -346,7 +346,7 @@ A tervezési folyamatban célszerű az általános logikai felépítést mindig
 * Biztosítja a felhasználó hozzáférését az ügyviteli logika szolgáltatásaihoz.
 * Sohasem kerül közvetlen kapcsolatba az adatbázissal és nem végez semmilyen műveletet az adatokon.
 
-## 30. Tesztterv
+## 27. Tesztterv
 
 | Pontok | Leírás |
 ---------|---------
