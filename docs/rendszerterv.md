@@ -138,6 +138,10 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 * Könnyed adatfelvétel és módosítás.
 
 ## Nem funkcionális követelmények
+
+* Esztétikus felhasználói felület.
+* Látáskárosultak számára is megfelelő színvilág és betűméretek használata.
+
 ## Funkcionális terv
 ## Rendszerszereplők
 ## Rendszerhasználati esetek és lefutásaik
