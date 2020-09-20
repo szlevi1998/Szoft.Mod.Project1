@@ -142,6 +142,12 @@ Maga a folyamat igen egyszerű és nem túl komplikált.
    * Megnézni a ranglistát.
 
 ## Üzleti entitások
+
+* Az üzletben résztvevő entitások:
+  * A programmal játszó felhasználók
+  * Olyan felhasználó aki már játszott a programmal és a neve már az eredménylistában szerpel
+  * Olyan felhasználó aki még nem játszik, de majd később fog.
+ 
 ## Követelmények
 
 A program célja a klasszikus papír alapú akasztófa játék leváltása. A jelenlegi papír-ceruza segítségével játszott játék digitalizálása.
