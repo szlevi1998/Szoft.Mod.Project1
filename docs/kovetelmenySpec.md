@@ -45,7 +45,7 @@ Kis gépigényű legyen, választható kategóriákkal és legyenek benne könny
 Fontos még, hogyha megunom ki tudjak lépni belőle azonnal. A kistesóm miatt nem szeretnék bele végtelen próbálkozási lehetőséget sem.
 Egy eredményeket jelző tábla is fontos lenne, hogyha átjönnek a haverok megmutathassam nekik, hogy eddig hányszor nyertem.
 ### 5. Követelménylista
-*   Egy olyan rendszer amely képes kategóriák, valamint témakörök közül választani a játék megkezdése előtt.
+*   Egy olyan rendszer amely képes kategóriák közül választani a játék megkezdése előtt.
 
 *   Több korosztályt megcélozva szeretnénk létrehozni egy élvezhető, ám gyökeréhez hű, egyszerű játékot.
 
