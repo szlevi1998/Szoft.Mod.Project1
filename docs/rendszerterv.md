@@ -182,6 +182,7 @@ A project során a következőket fogjuk használni:
 * Maven
 * SQL
 ## Keretrendszer
+* Java FX
 ## Architekturális terv
 ## Egy architekturális tervezési minta
 ## Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
