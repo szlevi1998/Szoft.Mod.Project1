@@ -96,7 +96,20 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
   A program jelzi ha a játékos jól vagy rosszul tippelt. Abban az esetben ha hibázik akkor hibák jelzésre kerülnek.
   Ha jól tippelt akkor a betűk megjelennek a kitalált szóban.
   
-  * A kilépés gomb nem az alkalmazás bezárását jelenti. Ehelyett átírányit minket az eredménylistához.  
+  * Hibák összegyűlésénel a játék döntési lehetőséget ajánl fel: Akarunk tovább játszani vagy nem?
+  Ha folytatjuk akkor az alkalmazás új szót választ nekünk.
+  Abban az esetben, ha nem folytatjuk a játékot, akkor az eredménylistához kerülünk. 
+  
+  * A kilépés gomb nem az alkalmazás bezárását jelenti. Ehelyett átírányit minket az eredménylistához.
+  
+  * A legutolsó folyamat a programban az eredménylista megjelenítése.
+  
+  * Az eredménylista az alábbi funkciókat tartalmazza:
+   * Megjeleníti a játékos nevét és győzelmeinek számát.
+   * Visszaugró gomb a játékhoz.
+   
+  * Megtekinthetjük itt a játékosok listáját és a győzelmek számát.
+  * A visszaugró gombbal játszhatunk újra, az előző beállítások alapján.  
 
 ## Igényelt üzleti folyamatok
 ## Képernyőtervek
