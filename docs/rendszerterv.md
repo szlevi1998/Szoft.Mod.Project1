@@ -266,6 +266,14 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
   
  * Emellett lesz egy gomb ami visszavisz a játékba, ha a felhasználó újra játszani szeretne.
  
+**Főablak**
+
+![Kép az modellről: ](photos/MainPanel.png)
+
+**Elvesztett játék**
+
+![Kép az modellről: ](photos/LosingState.png)
+ 
 ## Rendszer bővíthetősége
 
 Természetesen a késöbbiekben bővíthető lesz a program.
