@@ -197,6 +197,12 @@ A project során a következőket fogjuk használni:
 * Java FX
 ## Architekturális terv
 ## Egy architekturális tervezési minta
+A projekt során az MVC (model-view-control) modellt fogjuk alkalmazni.
+
+**Modell**:
+
+![Kép az modellről: ](photos/mvc.png)
+
 ## Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
 ## Rendszer bővíthetősége
 
