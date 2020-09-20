@@ -183,7 +183,7 @@ az eredményeik, ami minden játék végén megtekinthető.
 ## Menü hierarchiák
 ## Fizikai környezet
 
-* AMD FX-8320 processzor
+* AMD FX-8120 processzor
 * 4GB DDR4 memória
 * Radeon R9 270X videokártya
 * 1GB szabad tárhely
@@ -217,12 +217,12 @@ A projekt során az MVC (model-view-control) modellt fogjuk alkalmazni.
  * Felhasználói felület amivel a szoftver és a felhasználó "kommunikál".
  Ez az amivel írányítjuk a "lépéseinket".
   
-  * A logika az ami a felhasználó által véghezvitt eseményeket, műveleteket dolgozza fel.
+  * A logika az ami a felhasználó által véghezvitt eseményeket, műveleteket dolgozza fel,
    ami kiválthat további eseménysorozatot, illetve áll a tárolt adatok kezelésével.
 
 
 * Azzal, hogy ezt a megvalósítást választottuk nagyban megkönnyíti a munkánkat.
-Ez azért van mert ezzel a kódunk sokkal átláhatóbb, nem lesz szerteágazó.
+Ez azért van mert ezzel a kódunk sokkal átláthatóbb, nem lesz szerteágazó.
 
 ## Képernyőtervek
 
