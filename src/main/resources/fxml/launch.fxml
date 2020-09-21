@@ -1,10 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="fxml.Launch"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.Launch">
+   <children>
+      <ChoiceBox layoutX="400.0" layoutY="320.0" prefWidth="150.0" />
+      <TextField layoutX="400.0" layoutY="224.0" />
+      <Label layoutX="350.0" layoutY="64.0" text="Akasztófajáték">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="400.0" layoutY="416.0" prefWidth="150.0" />
+      <Label layoutX="310.0" layoutY="324.0" text="Korosztály">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="313.0" layoutY="420.0" text="Kategória">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="69.0" layoutY="550.0" mnemonicParsing="false" text="Kilépés">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="491.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" text="Tovább">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="300.0" layoutY="128.0" text="Üdvözlünk az akasztófa játékunkba!">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="160.0" text="Add meg a nevedet a továbblépéshez!" textFill="#ff0202">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="362.0" layoutY="228.0" text="Név">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="276.0" text="Ez a felhasználó már használt! Válassz másikat!" textFill="RED">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
