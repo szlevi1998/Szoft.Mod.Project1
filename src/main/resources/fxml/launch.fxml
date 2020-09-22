@@ -4,22 +4,23 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.Launch">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="anchor" stylesheets="@../Styles/background.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.Launch">
+
    <children>
-      <ChoiceBox layoutX="400.0" layoutY="320.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="400.0" layoutY="320.0" prefWidth="150.0" visible="false" />
       <TextField layoutX="400.0" layoutY="224.0" />
-      <Label layoutX="350.0" layoutY="64.0" text="Akasztófajáték">
+      <Label layoutX="350.0" layoutY="64.0" text="Akasztófa játék">
          <font>
             <Font name="Arial Bold" size="25.0" />
          </font>
       </Label>
-      <ChoiceBox layoutX="400.0" layoutY="416.0" prefWidth="150.0" />
-      <Label layoutX="310.0" layoutY="324.0" text="Korosztály">
+      <ChoiceBox layoutX="400.0" layoutY="416.0" prefWidth="150.0" visible="false" />
+      <Label layoutX="310.0" layoutY="324.0" text="Korosztály" visible="false">
          <font>
             <Font name="Arial Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="313.0" layoutY="420.0" text="Kategória">
+      <Label layoutX="313.0" layoutY="420.0" text="Kategória" visible="false">
          <font>
             <Font name="Arial Bold" size="16.0" />
          </font>
@@ -49,7 +50,7 @@
             <Font name="Arial Bold" size="16.0" />
          </font>
       </Label>
-      <Label layoutX="268.0" layoutY="276.0" text="Ez a felhasználó már használt! Válassz másikat!" textFill="RED">
+      <Label layoutX="268.0" layoutY="276.0" text="Ez a felhasználó már használt! Válassz másikat!" textFill="RED" visible="false">
          <font>
             <Font name="Arial Bold" size="15.0" />
          </font>
