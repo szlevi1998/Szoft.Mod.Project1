@@ -7,47 +7,47 @@
 <AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="anchor" stylesheets="@../Styles/background.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.Launch">
 
    <children>
-      <ChoiceBox layoutX="400.0" layoutY="320.0" prefWidth="150.0" visible="false" />
-      <TextField layoutX="400.0" layoutY="224.0" />
-      <Label layoutX="350.0" layoutY="64.0" text="Akasztófa játék">
+      <ChoiceBox layoutX="340.0" layoutY="323.0" prefHeight="25.0" prefWidth="180.0" visible="false" />
+      <TextField layoutX="340.0" layoutY="225.0" prefHeight="25.0" prefWidth="180.0" />
+      <Label layoutX="300.0" layoutY="15.0" text="Akasztófa játék" textFill="WHITE">
          <font>
-            <Font name="Arial Bold" size="25.0" />
+            <Font name="Droid Sans Bold" size="31.0" />
          </font>
       </Label>
-      <ChoiceBox layoutX="400.0" layoutY="416.0" prefWidth="150.0" visible="false" />
-      <Label layoutX="310.0" layoutY="324.0" text="Korosztály" visible="false">
+      <ChoiceBox layoutX="340.0" layoutY="417.0" prefHeight="25.0" prefWidth="180.0" visible="false" />
+      <Label layoutX="231.0" layoutY="323.0" text="Korosztály" visible="false">
          <font>
-            <Font name="Arial Bold" size="16.0" />
+            <Font name="Droid Sans Bold" size="21.0" />
          </font>
       </Label>
-      <Label layoutX="313.0" layoutY="420.0" text="Kategória" visible="false">
+      <Label layoutX="238.0" layoutY="417.0" text="Kategória" visible="false">
          <font>
-            <Font name="Arial Bold" size="16.0" />
+            <Font name="Droid Sans Bold" size="21.0" />
          </font>
       </Label>
-      <Button layoutX="69.0" layoutY="550.0" mnemonicParsing="false" text="Kilépés">
+      <Button layoutY="550.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Kilépés">
          <font>
-            <Font name="System Bold" size="12.0" />
+            <Font name="Arial Bold" size="17.0" />
          </font>
       </Button>
-      <Button layoutX="420.0" layoutY="491.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="74.0" text="Tovább">
+      <Button layoutX="358.0" layoutY="500.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Tovább">
          <font>
-            <Font name="Arial Bold" size="12.0" />
+            <Font name="Arial Bold" size="17.0" />
          </font>
       </Button>
-      <Label layoutX="300.0" layoutY="128.0" text="Üdvözlünk az akasztófa játékunkba!">
+      <Label layoutX="220.0" layoutY="60.0" text="Üdvözlünk az akasztófa játékunkban!" textFill="WHITE">
          <font>
-            <Font name="Arial Bold" size="16.0" />
+            <Font name="Droid Sans Bold" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="300.0" layoutY="160.0" text="Add meg a nevedet a továbblépéshez!" textFill="#ff0202">
+      <Label layoutX="214.0" layoutY="121.0" text="Add meg a nevedet a továbblépéshez!" textFill="#ff0202">
          <font>
-            <Font name="Arial Bold" size="15.0" />
+            <Font name="Droid Sans Bold" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="362.0" layoutY="228.0" text="Név">
+      <Label layoutX="297.0" layoutY="225.0" text="Név">
          <font>
-            <Font name="Arial Bold" size="16.0" />
+            <Font name="Droid Sans Bold" size="21.0" />
          </font>
       </Label>
       <Label layoutX="268.0" layoutY="276.0" text="Ez a felhasználó már használt! Válassz másikat!" textFill="RED" visible="false">
