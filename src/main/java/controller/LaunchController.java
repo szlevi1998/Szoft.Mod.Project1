@@ -12,11 +12,16 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
+import lombok.Getter;
 
 import java.io.IOException;
 
-
+@Getter
 public class LaunchController {
+
+    @FXML
+    private String userName;
+
 
     @FXML
     private TextField userNameField;
@@ -37,21 +42,22 @@ public class LaunchController {
     private Label errorLabel;
 
 
+
     public LaunchController() {
     }
 
     public void notEmpty(KeyEvent keyEvent) {
 
-            visible();
+        visible();
 
     }
 
     public void startAction(ActionEvent actionEvent) throws IOException {
 
-        if (userNameField.getText().isEmpty()){
+        if (userNameField.getText().isEmpty()) {
 
             errorLabel.setVisible(true);
-        } else{
+        } else {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
             Parent root = fxmlLoader.load();
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();

@@ -2,6 +2,7 @@ package game;
 import DB.Database;
 import java.sql.*;
 import java.util.ArrayList;
+import controller.LaunchController;
 
 public class Names {
     private Statement st;
@@ -10,6 +11,7 @@ public class Names {
     String query = "select * from user";
     String query2 = "insert into user(nev,jatszott,nyert) values(?,?,?)";
     ArrayList<String> array = new ArrayList<>();
+    LaunchController launchController = new LaunchController();
 
     public void askConnectionQuery() throws SQLException {
         Database db = new Database();
@@ -25,7 +27,7 @@ public class Names {
     public void askConnectionInsert() throws SQLException {
         Database db = new Database();
         pst = Database.getCon().prepareStatement(query2);
-        pst.setString(1,"Martin");
+        pst.setString(1,launchController.getUserNameField().getText());
         pst.setInt(2,0);
         pst.setInt(3,0);
         int count = pst.executeUpdate();
