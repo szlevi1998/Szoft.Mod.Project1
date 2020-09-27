@@ -17,7 +17,7 @@ public class Word {
     String query = "select szo from szavak where id =" + generateRandom();
     Scanner scan = new Scanner(System.in);
     String s = wordAskConnectionQuery();
-    ArrayList<Character> solution = new ArrayList<>(s.length());
+    char[] solution = new char[s.length()];
 
     public Word() throws SQLException {
     }
@@ -33,8 +33,15 @@ public class Word {
                 c = scan.nextLine();
             }
             if (s.contains(c)) {
-                counter -= 1;
-                s = s.replace(c,"");
+                final char d = c.charAt(0);
+                long occ = s.chars().filter(e->e == d).count();
+                counter -= occ;
+                for (int i = 0;i < occ;i++) {
+                    int charPosition = s.indexOf(c);
+                    System.out.println(charPosition);
+                    solution[charPosition] = d;
+                    s = s.replaceFirst(c," ");
+                }
                 System.out.println(s + " " + counter);
             }
             else {
@@ -43,7 +50,7 @@ public class Word {
             }
         }
         if (counter == 0){
-        System.out.println("You won!" + solution);
+        System.out.println("You won!" + new String(solution));
         }
         else {
             System.out.println("You lost!");
