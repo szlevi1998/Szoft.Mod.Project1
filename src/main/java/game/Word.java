@@ -1,5 +1,6 @@
 package game;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Word {
@@ -39,4 +40,16 @@ public class Word {
         return (s == null) ? false : s.matches("[^a-z]");
     }
 
+    public String getTheLengthWithMarks() {
+        String mark = "";
+        for (int i = 0;i < s.length();i++) {
+            mark = mark + "_" + " ";
+        }
+        System.out.println(mark);
+        return mark;
+    }
+    public void generateRandom() {
+        Random rand = new Random();
+        int rand_int = rand.nextInt(9);
+    }
 }
