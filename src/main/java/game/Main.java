@@ -8,7 +8,8 @@ public class Main {
         //name.askConnectionQuery();
         //name.askConnectionInsert();
         Word first = new Word();
-        //first.checkIt();
-        first.getTheLengthWithMarks();
+        first.checkIt();
+        //first.getTheLengthWithMarks();
+        //first.wordAskConnectionQuery();
     }
 }

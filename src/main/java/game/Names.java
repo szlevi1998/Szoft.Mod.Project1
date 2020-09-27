@@ -24,7 +24,6 @@ public class Names {
 
     public void askConnectionInsert() throws SQLException {
         Database db = new Database();
-        st = Database.getCon().createStatement();
         pst = Database.getCon().prepareStatement(query2);
         pst.setString(1,"Martin");
         pst.setInt(2,0);
