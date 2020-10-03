@@ -1,6 +1,7 @@
 package game;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
@@ -14,7 +15,7 @@ public class Main {
         //Get_Words_number.getWordsNumber();
         //GenerateRandom.generateRandom();
         //Keyboard keyb = new Keyboard();
-        MyWord asd = new MyWord("alma");
-        asd.getWord();
+        //MyWord asd = new MyWord("almanfghfghgf");
+        //asd.displayWord();
     }
 }

@@ -2,6 +2,7 @@ package controller;
 
 import game.GetWordsFromDB;
 import game.MarkTheWord;
+import game.MyWord;
 import game.Names;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -23,6 +24,8 @@ import java.sql.SQLException;
 
 public class GameController {
     @FXML
+    MyWord myWord = new MyWord(GetWordsFromDB.wordFromDB());
+    @FXML
     private Label markLabel;
 
     @FXML
@@ -31,9 +34,13 @@ public class GameController {
     @FXML
     private int counter = 0;
 
+    public GameController() throws SQLException {
+    }
+
     @FXML
     private void initialize() throws SQLException {
-        markLabel.setText(MarkTheWord.getTheLengthWithMarks(GetWordsFromDB.wordFromDB()));
+        new MyWord(GetWordsFromDB.wordFromDB()).displayWord();
+        markLabel.setText(myWord.getStringRepresentation(myWord.displayWord()));
     }
 
     public void buttonClick(ActionEvent actionEvent) throws IOException, SQLException {
