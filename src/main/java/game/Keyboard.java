@@ -3,29 +3,17 @@ package game;
 import java.util.ArrayList;
 
 public class Keyboard {
-    private static ArrayList<Character> array = new ArrayList<>();
+    private static ArrayList<String> stringArray = new ArrayList<>();
 
     public Keyboard() {
         char c;
-        for (c = 'a';c <='z';++c){
-            array.add(c);
+        String s;
+        for (c = 'a';c <='z';c++){
+            s = String.valueOf(c);
+            stringArray.add(s);
         }
-        System.out.println(array);
     }
-
-    public int checkElement(char c) {
-        if (array.contains(c)){
-            for(int i = 0;i<array.size();i++){
-                if(array.get(i) == c){
-                    return i;
-                }
-            }
-        }
-        return -1;
-    }
-
-    public ArrayList<Character> deleteElement(char c){
-        array.remove(checkElement(c));
-        return array;
+    public String getValueFromArray(int num){
+        return stringArray.get(num);
     }
 }

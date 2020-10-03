@@ -1,5 +1,6 @@
 package controller;
 
+import game.Names;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -15,6 +16,7 @@ import javafx.stage.Stage;
 import lombok.Getter;
 
 import java.io.IOException;
+import java.sql.SQLException;
 
 @Getter
 public class LaunchController {
@@ -22,40 +24,17 @@ public class LaunchController {
     @FXML
     private String userName;
 
-
     @FXML
     private TextField userNameField;
 
     @FXML
-    private ChoiceBox korOsztaly;
-
-    @FXML
-    private ChoiceBox kategoria;
-
-    @FXML
-    private Label kategoriaNev;
-
-    @FXML
-    private Label korOsztalyNev;
-
-    @FXML
     private Label errorLabel;
-
-
 
     public LaunchController() {
     }
 
-    public void notEmpty(KeyEvent keyEvent) {
-
-        visible();
-
-    }
-
-    public void startAction(ActionEvent actionEvent) throws IOException {
-
+    public void startAction(ActionEvent actionEvent) throws IOException, SQLException {
         if (userNameField.getText().isEmpty()) {
-
             errorLabel.setVisible(true);
         } else {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
@@ -63,17 +42,10 @@ public class LaunchController {
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
+            Names name = new Names();
+            name.askConnectionInsert(userNameField.getText());
         }
     }
-
-
-    private void visible() {
-        korOsztaly.setVisible(true);
-        korOsztalyNev.setVisible(true);
-        kategoria.setVisible(true);
-        kategoriaNev.setVisible(true);
-    }
-
 
 }
 

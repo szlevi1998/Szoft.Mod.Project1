@@ -5,159 +5,128 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
-   <children>
-      <Pane prefHeight="150.0" prefWidth="800.0" styleClass="pane" stylesheets="@../Styles/gameBackground.css">
-         <children>
-            <ImageView fitHeight="300.0" fitWidth="226.0" layoutX="574.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="100.0" fitWidth="400.0" layoutX="163.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
-         </children></Pane>
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
+    <children>
+        <Label fx:id = "markLabel" layoutX="300.0" layoutY="15.0" textFill="LIGHTBLUE">
+            <font>
+                <Font name="Droid Sans Bold" size="31.0" />
+            </font>
+        </Label>
+        <Pane prefHeight="150.0" prefWidth="800.0" styleClass="pane" stylesheets="@../Styles/gameBackground.css">
+            <children>
+                <ImageView fitHeight="300.0" fitWidth="226.0" layoutX="574.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                <ImageView fitHeight="100.0" fitWidth="400.0" layoutX="163.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+            </children></Pane>
 
-      <Button layoutX="53.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="A">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font>
-      </Button>
-      <Button layoutX="109.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Á">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="165.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="B">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="221.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="C">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="277.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="D">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="333.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="E">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="389.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="É">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="445.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="F">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="501.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="G">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button graphicTextGap="0.0" layoutX="557.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="H">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="613.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="I">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="669.0" layoutY="331.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Í">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="53.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="J">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="109.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="K">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="165.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="L">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="221.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="M">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="277.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="N">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="333.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="O">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="389.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Ó">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="445.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Ö">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="501.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Ő">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="557.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="P">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="613.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Q">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="669.0" layoutY="389.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="R">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="53.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="S">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="109.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="T">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="165.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="U">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="221.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Ú">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="277.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Ü">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="333.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Ű">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="389.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="V">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="445.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="W">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="501.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="X">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="557.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Y">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="613.0" layoutY="447.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Z">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="18.0" />
-         </font></Button>
-      <Button layoutX="320.0" layoutY="515.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="160.0" stylesheets="@../Styles/stylesForButtons.css" text="Feladom">
-         <font>
-            <Font name="Microsoft YaHei Bold" size="22.0" />
-         </font>
-      </Button>
-   </children>
+        <Button layoutX="53.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="A">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font>
+        </Button>
+        <Button layoutX="109.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="B">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="165.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="C">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="221.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="D">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="277.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="E">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="333.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="F">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="389.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="G">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button graphicTextGap="0.0" layoutX="445.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="H">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="500.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="I">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="53.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="J">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="109.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="K">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="165.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="L">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="221.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="M">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="277.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="N">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="333.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="O">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="389.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="P">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="445.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Q">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="500.0" layoutY="389.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="R">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="53.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="S">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="109.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="T">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="165.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="U">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="221.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="V">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="277.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="W">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="333.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="X">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="389.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Y">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="445.0" layoutY="447.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="Z">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="18.0" />
+            </font></Button>
+        <Button layoutX="320.0" layoutY="515.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="160.0" stylesheets="@../Styles/stylesForButtons.css" text="Feladom">
+            <font>
+                <Font name="Microsoft YaHei Bold" size="22.0" />
+            </font>
+        </Button>
+    </children>
 </AnchorPane>

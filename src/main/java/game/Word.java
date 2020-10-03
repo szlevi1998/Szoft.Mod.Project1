@@ -71,7 +71,7 @@ public class Word {
     }
     public int generateRandom() {
         Random rand = new Random();
-        int rand_int = rand.nextInt(9);
+        int rand_int = rand.nextInt();
         return rand_int;
     }
 

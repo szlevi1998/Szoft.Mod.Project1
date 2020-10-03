@@ -14,7 +14,6 @@ public class Names {
     LaunchController launchController = new LaunchController();
 
     public void askConnectionQuery() throws SQLException {
-        Database db = new Database();
         st = Database.getCon().createStatement();
         rs = st.executeQuery(query);
         while(rs.next()){
@@ -24,14 +23,12 @@ public class Names {
         st.close();
     }
 
-    public void askConnectionInsert() throws SQLException {
-        Database db = new Database();
+    public void askConnectionInsert(String userName) throws SQLException {
         pst = Database.getCon().prepareStatement(query2);
-        pst.setString(1,launchController.getUserNameField().getText());
+        pst.setString(1,userName);
         pst.setInt(2,0);
         pst.setInt(3,0);
         int count = pst.executeUpdate();
-
         System.out.println(count + "row/s affected");
 
         pst.close();
