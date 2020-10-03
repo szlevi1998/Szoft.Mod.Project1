@@ -76,7 +76,6 @@ public class Word {
     }
 
     public String wordAskConnectionQuery() throws SQLException {
-        Database db = new Database();
         st = Database.getCon().createStatement();
         rs = st.executeQuery(query);
         rs.next();

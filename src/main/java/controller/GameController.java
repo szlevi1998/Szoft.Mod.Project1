@@ -1,9 +1,7 @@
 package controller;
 
 import game.GetWordsFromDB;
-import game.MarkTheWord;
 import game.MyWord;
-import game.Names;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -66,6 +64,7 @@ public class GameController {
 
     public void increaseCounter(){
         counter += 1;
+
         if (counter == 11){
             lost.setText("You lost");
         }
