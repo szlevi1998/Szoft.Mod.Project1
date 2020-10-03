@@ -23,10 +23,12 @@ import java.io.IOException;
 import java.sql.SQLException;
 
 public class GameController {
-    @FXML
     MyWord myWord = new MyWord(GetWordsFromDB.wordFromDB());
     @FXML
     private Label markLabel;
+
+    @FXML
+    private Label lost;
 
     @FXML
     private String button_value;
@@ -39,14 +41,19 @@ public class GameController {
 
     @FXML
     private void initialize() throws SQLException {
-        new MyWord(GetWordsFromDB.wordFromDB()).displayWord();
-        markLabel.setText(myWord.getStringRepresentation(myWord.displayWord()));
+        new MyWord(GetWordsFromDB.wordFromDB());
+        markLabel.setText(myWord.getDisplayWord());
     }
 
     public void buttonClick(ActionEvent actionEvent) throws IOException, SQLException {
         ((Button)actionEvent.getSource()).setVisible(false);
         button_value = ((Button)actionEvent.getSource()).getText();
-        counter += counter;
+        if(myWord.checkTheValue(button_value.charAt(0))){
+            markLabel.setText(myWord.getDisplayWord());
+        }
+        else{
+            increaseCounter();
+        }
     }
 
     public int getCounter() {
@@ -54,7 +61,14 @@ public class GameController {
     }
 
     public String getButton_value() {
-        return button_value;
+       return button_value;
+    }
+
+    public void increaseCounter(){
+        counter += 1;
+        if (counter == 11){
+            lost.setText("You lost");
+        }
     }
 }
 
