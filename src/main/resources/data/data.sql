@@ -10,9 +10,9 @@ insert into szavak values (3,3,2,'sakk',FALSE);
 insert into szavak values (4,1,1,'kutya',FALSE);
 insert into szavak values (5,2,1,'rozmar',FALSE);
 insert into szavak values (6,3,1,'dodo',FALSE);
-insert into szavak values (7,1,3,'leauge of legends',FALSE);
-insert into szavak values (8,2,3,'leauge of legends',FALSE);
-insert into szavak values (9,3,3,'leauge of legends',FALSE);
+insert into szavak values (7,1,3,'leaugeoflegends',FALSE);
+insert into szavak values (8,2,3,'leaugeoflegends',FALSE);
+insert into szavak values (9,3,3,'leaugeoflegends',FALSE);
 commit;
 select * from szavak;
 

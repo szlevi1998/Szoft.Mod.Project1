@@ -1,5 +1,6 @@
 package controller;
 
+import game.GetCategoryFromDB;
 import game.GetWordsFromDB;
 import game.MyWord;
 import javafx.event.ActionEvent;
@@ -25,6 +26,9 @@ public class GameController {
     GetCategoryFromDB category = new GetCategoryFromDB();
     @FXML
     private Label markLabel;
+
+    @FXML
+    private Label categoria;
 
     @FXML
     private String button_value;

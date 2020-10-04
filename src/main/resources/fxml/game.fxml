@@ -17,6 +17,11 @@
                          <Font name="Droid Sans Bold" size="31.0" />
                      </font>
                  </Label>
+                    <Label fx:id="categoria" layoutX="250.0" layoutY="30.0" prefHeight="90.0" prefWidth="300.0">
+                        <font>
+                            <Font name="Droid Sans Bold" size="31.0" />
+                        </font>
+                    </Label>
                 </children></Pane>
 
             <Button layoutX="53.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="A">

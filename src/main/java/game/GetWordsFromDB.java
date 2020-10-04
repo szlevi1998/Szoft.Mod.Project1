@@ -17,7 +17,9 @@ public class GetWordsFromDB {
         rs = st.executeQuery(query);
         rs.next();
         String wordOfDB = rs.getString("szo");
+
         rs.close();
         return wordOfDB;
     }
+
 }
