@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
+   <children>
+      <Pane layoutY="3.0" prefHeight="200.0" prefWidth="400.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="44.0" text="Elvesztetted a játékot! Szeretnél újat játszani?" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Button layoutX="14.0" layoutY="151.0" mnemonicParsing="false" onAction="#restartGame" text="Igen" />
+            <Button layoutX="337.0" layoutY="149.0" mnemonicParsing="false" onAction="#goToLeaderboard" text="Nem" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
