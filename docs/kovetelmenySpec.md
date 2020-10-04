@@ -32,12 +32,20 @@ Ha vége a menetnek, látni szeretném, hogy ha hibáztam mennyit, és hogy sok 
 Két opciót szeretnék még látni a végén, az egyik a kilépés, a másik az új játék opció.
 Valami táblázat is legyen a játékban, hogy én vagy a tesóm a jobb.
 ### 3. A jelenlegi üzleti folyamatok modellje
-Jelenleg a játékunk eléggé elavult illetve régimódi. A rendelkezésünkre álló eszközök mint például lap,toll eléggé pénzigényesek. A játék helye a toll és papír eszközöknek köszönhetően eléggé rugalmas tud lenni, viszont több negatív hatása van.
-A napi megterhelő munka utáni játék során fejben kell tartani elég sok mindent amiből könnyen hibázhatunk. Papíron nehezebb számolni a hiba lehetősségeket.
-Több játék során eléggé időigényes mindig felírni az összes betűt majd ha esetleg hibázunk még egy ábrát is készíteni a hibákból.
-Jelen állás szerint ha egy új ember szeretne játszani, neki elkell mondani előről az egész játékfolyamatot ami megterhelő több új játékos után. 
-Az átláthatóság papíron nem megoldható mivel összemosódnak a játékok. Macerás dolog írni a játékban résztvevőket illetve a nyertest is. Jelen állás szerint nemtudunk létrehozni egyfajta ranglistát mivel rövidtávon még megoldható, de hosszútávon már nem kivitelezhető ez maximum hosszas elemzés után.
-Mivel jelenleg papíralapú a játékunk ezért fennáll az a veszély, hogy eltünjön az adott játékunk.
+
+*   Elavult és régimódi akasztófa játék.
+
+*   Lapon történő játék tollal.
+
+*   Hosszadalmas előkészület
+
+*   Sok hibalehetősség => fejben elszámolás, kiolvashatatlanság, elírás.
+
+*   Átláthatatlanság, mivel a játékok a papíron összemosódnak.
+
+*   Ranglista nélküli játék.
+
+*   Papírok kezelhetlensége.
 ### 4. Igényelt üzleti folyamatok modellje
 Búcsút szeretnénk mondani a régi papíron való játékoknak, ezért szükséges lenne, hogy
 egy olyan program legyen, ami elfut a mamáék gépén is, hogyha hétvégente lemegyünk hozzájuk akkor együtt tudjunk játszani.
