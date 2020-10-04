@@ -26,13 +26,16 @@ public class GameController {
     private Label markLabel;
 
     @FXML
-    private Label lost;
-
-    @FXML
     private String button_value;
 
     @FXML
     private int counter = 0;
+
+    @FXML
+    private int gamesPlayed = 0;
+
+    @FXML
+    private int gamesWon = 0;
 
     public GameController() throws SQLException {
     }
@@ -66,8 +69,23 @@ public class GameController {
         counter += 1;
 
         if (counter == 11){
-            lost.setText("You lost");
+            gamesPlayed++;
         }
+        else {
+            gamesPlayed++;
+            gamesWon++;
+        }
+    }
+
+    public void restartGame(ActionEvent actionEvent) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(new Scene(root));
+        stage.show();
+    }
+
+    public void goToLeaderboard(ActionEvent actionEvent) {
     }
 }
 

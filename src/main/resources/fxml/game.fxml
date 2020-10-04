@@ -4,25 +4,19 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<VBox prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
-    <VBox>
-        <Label fx:id="markLabel" layoutX="300.0" layoutY="15.0" textFill="LIGHTBLUE">
-            <font>
-                <Font name="Droid Sans Bold" size="31.0" />
-            </font>
-        </Label>
-        <Label fx:id="lost" layoutX="300.0" layoutY="15.0" textFill="RED">
-            <font>
-                <Font name="Droid Sans Bold" size="31.0" />
-            </font>
-        </Label>
-    </VBox>
-    <AnchorPane >
+
+<VBox prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
+    <VBox />
+    <AnchorPane>
         <children>
             <Pane prefHeight="150.0" prefWidth="800.0" styleClass="pane" stylesheets="@../Styles/gameBackground.css">
                 <children>
                     <ImageView fitHeight="300.0" fitWidth="226.0" layoutX="574.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
-                    <ImageView fitHeight="100.0" fitWidth="400.0" layoutX="163.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+                 <Label fx:id="markLabel" layoutX="250.0" layoutY="30.0" prefHeight="90.0" prefWidth="300.0">
+                     <font>
+                         <Font name="Droid Sans Bold" size="31.0" />
+                     </font>
+                 </Label>
                 </children></Pane>
 
             <Button layoutX="53.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="A">
@@ -138,4 +132,3 @@
         </children>
     </AnchorPane>
 </VBox>
-

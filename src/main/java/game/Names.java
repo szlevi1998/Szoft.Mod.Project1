@@ -3,6 +3,8 @@ import DB.Database;
 import java.sql.*;
 import java.util.ArrayList;
 import controller.LaunchController;
+import controller.GameController;
+
 
 public class Names {
     private Statement st;
@@ -12,6 +14,10 @@ public class Names {
     String query2 = "insert into user(nev,jatszott,nyert) values(?,?,?)";
     ArrayList<String> array = new ArrayList<>();
     LaunchController launchController = new LaunchController();
+    GameController gameController = new GameController();
+
+    public Names() throws SQLException {
+    }
 
     public void askConnectionQuery() throws SQLException {
         st = Database.getCon().createStatement();
