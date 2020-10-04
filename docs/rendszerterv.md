@@ -131,9 +131,10 @@ Maga a folyamat igen egyszerű és nem túl komplikált.
  
  * Első ablakban kapni fogunk egy kis rublikát amibe a felhasználónevünket írjuk be, például : Martin97.
  
- * Második ablakba két dolgot tudunk kiválasztani.
-    * Korosztály : Fiatal, középkorú, idős.
-    * Kategória  : Madár,tárgy stb..
+ * Második ablakba három dolgot fogunk látni.
+    * A billentyűzetet
+    * A kitalálandó szót
+    * A szó kategóriáját
 
  * Kezdődik a játék, a cél, hogy kitaláljuk a keresett szót.
  
@@ -175,19 +176,18 @@ Célja az idő és energia, valamint a belefektetett pénz megspórolása, valam
 ## 14. Rendszerszereplők
 A jelenlegi rendszerben a rendszerszereplők nem mások, mint a rendszer
 használói vagyis a userek. A játék során limitált lehetőségük van, de később
-ez bővítésre kerül. Egy user indítás után tud saját nevet megadni, kategóriát
-és korosztályt választani. Lehetősége van a játék közben bizonyos hibázásra,
+ez bővítésre kerül. Egy user indítás után tud saját nevet megadni. 
+Lehetősége van a játék közben bizonyos hibázásra,
 amit a rendszer észlel és jelez. Valamint egy leaderboardban tárolódnak
 az eredményeik, ami minden játék végén megtekinthető. 
 ## 15. Rendszerhasználati esetek és lefutásaik
 
-![Kép az adatbázisról: ](photos/diagram2.png)
+![Kép: ](photos/diagram2.png)
 ## 16. Fizikai környezet
 
 * AMD FX-8120 processzor
 * 4GB DDR4 memória
 * Radeon R9 270X videokártya
-* 1GB szabad tárhely
 
 ## 17. Fejlesztői eszközök
 A project során a következőket fogjuk használni:
@@ -201,7 +201,7 @@ A projekt során az MVC (model-view-control) modellt fogjuk alkalmazni.
 
 **Modell**:
 
-![Kép az modellről: ](photos/mvc.png)
+![Kép a modellről: ](photos/mvc.png)
 
 ## 20. Az alkalmazás rétegei, fő komponensei, ezek kapcsolatai
 
@@ -239,16 +239,16 @@ Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem 
 A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
 Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged tovább.
  
- * Miután sikerült megadni a felhasználóneved, utána a program felkínálja a lehetőséget,hogy kiválaszd a korosztályt és a kitalálandó szókategóriáját.
- 
- * Ezután tovább léphetünk a főjátékra. 
+ * Miután sikerült megadni a felhasználóneved, utána továbblépünk a következő ablakra,
+ ahol láthatjuk a kitalálandó szó kategóriáját és hosszát.
 
 ### 21.2 Játékablak
  
- * A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
- A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
- Ha tartalmazza akkor a már említett rublikák helyére bekerül(nek) az adott betű. Ha nem tartalmazza akkor a hiba jelzésre kerül.
- A kattintás után az adott betű át lesz húzva és többet nem lehet felhasználni.
+ * A képernyő közepén majd láthatjuk vonalakat amelyek a bizonyos szónak a betűit tárolja.
+ A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a betűt tartalmazza az a szó.
+ Ha tartalmazza akkor a már említett rublikák helyére bekerül(nek) az adott betű.
+ Ha nem tartalmazza akkor a hiba jelzésre kerül.
+ A kattintás után az adott betű eltűnik és többet nem lehet felhasználni.
 
 * Segítségünk nem lesz, csak saját magunkra leszünk utalva.
  
@@ -267,9 +267,14 @@ Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged t
  
 **Főablak**
 
-![Kép az modellről: ](photos/MainPanel.png)
+* Fölötte láthatjuk majd a kitalálandó szót jelző vonalakat és a folyamatosan
+frissülő képeket.
+
+![Kép az modellről: ](photos/bill.png)
 
 **Elvesztett játék**
+
+* Egy minta az elvesztett játékról.
 
 ![Kép az modellről: ](photos/LosingState.png)
  
@@ -352,14 +357,11 @@ A tervezési folyamatban célszerű az általános logikai felépítést mindig
 ---------|---------
 |01      | A program indítása |
 |02      | A user nevének megadása |
-|03      | Azonos név megadása, mivel egy név egyszer szerepelhet |
-|04      | Korosztályok kiválasztása |
-|05      | Kategóriák kiválasztása |
-|06      | Billentyűzeten egy betű egyszer kattintható |
-|07      | Egy betű megadásakor, mindenhova beíródik |
-|08      | 11 hiba után megáll a játék |
-|09      | Jól kirajzolódik a hiba ábra |
-|10      | Játék bármikor megszakítható |
-|11      | Játék végén leaderboard működik |
-|12      | Játék végén újrakezdés működik |
-|13      | Játék végén kilépés működik |
+|03      | Billentyűzeten egy betű egyszer kattintható |
+|04      | Egy betű megadásakor, mindenhova beíródik |
+|05      | 11 hiba után megáll a játék |
+|06      | Jól kirajzolódik a hiba ábra |
+|07      | Játék bármikor megszakítható |
+|08      | Játék végén leaderboard működik |
+|09      | Játék végén újrakezdés működik |
+|10      | Játék végén kilépés működik |

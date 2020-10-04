@@ -32,9 +32,8 @@ családoknak, kik hasonló körülmények között élnek, mint e program megren
     * A játék képes lesz előre megadott korosztály opciót nyújtani a felhasználónak,
      hogy minden egyes korosztály szabadidejében megtalálja a kikapcsolódási
      lehetőséget offline, a gép előtt ülve is.
-    * Tartalmazni fog még kategória fület is, amiben kiválaszthatjuk a
-    számunkra leginkább megfelelő kategóriát, amiben igazán otthon érezzük
-    magunkat.
+    * Tartalmazni fog még kategóriát is, és ha szerencsénk van a
+    számunkra leginkább megfelelő kategóriát bedobja a játék.
     * Mellesleg a játék csak bizonyos hibázási lehetőséget enged, ezáltal
      valami kihívási lehetőséget tartogatva magában, hogy a cél nem a
      tippelgetés lesz, hanem az általunk bírtoklott tudás használata.
@@ -80,11 +79,11 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
  
 * Az indítóablak menüje ezeket a funkciókat tartalmazza:
   * Felhasználó név megadása
-  * Kitalált szó kategóriájának megválasztása
-  * Korosztály kiválasztása
+  * Továbblépés
   * Alkalmazásból kilépés
 
-* Ezek után a főablakban a játék elkezdésénel a játék úgy fog szót választani, ahogy a felhasználó döntött az indítóablaknál.
+* Ezek után a főablakban a játék elkezdésénel a játék úgy fog szót választani, hogy a 
+random generált szó kategóriáját is kiírja a képernyőre.
 
 * Természetesen a főablak az amely a legtöbb funkciót tartalmazza az alkalmazásunkban.
 
@@ -108,11 +107,7 @@ Az indítóablak futása során a felhasználó nevét eltároljuk az adatbázis
   
   * A legutolsó folyamat a programban az eredménylista megjelenítése.
   
-  * Az eredménylista az alábbi funkcigyőzelmeinek számát.
-                                        * Visszaugró gomb a játékhoz.
-                                        
-                                       * Megtekinthetjük itt a játékosokókat tartalmazza:
-   * Megjeleníti a játékos nevét és  listáját és a győzelmek számát.
+   * Megjeleníti a játékos nevét, játszott menetek és a győzelmek számát.
   * A visszaugró gombbal játszhatunk újra, az előző beállítások alapján.  
 
 ## 5. Igényelt üzleti folyamatok
@@ -140,16 +135,15 @@ Elsősorban azért, mert ez ismerős számunkra, de emellett azért is mert nem 
 A bemeneti mezőben írjuk be a felhasználónevünket amelyet eltárolunk. 
 Abban az esetben, ha nem írunk felhasználónevet, akkor a rendszer nem enged tovább.
  
- * Miután sikerült megadni a felhasználóneved, utána a program felkínálja a lehetőséget,hogy kiválaszd a korosztályt és a kitalálandó szókategóriáját.
- 
- * Ezután tovább léphetünk a főjátékra. 
+ * Miután sikerült megadni a felhasználóneved, utána továbblépünk a következő ablakra,
+ ahol láthatjuk a kitalálandó szó kategóriáját és hosszát.
 
 ### 6.2 Játékablak
  
- * A képernyő közepén majd láthatjuk a rublikákat amelyek a bizonyos szónak a betűit tárolja.
- A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a szót tartalmazza az a betű.
+ * A képernyő közepén majd láthatjuk vonalakat amelyek a bizonyos szónak a betűit tárolja.
+ A betűk az ablak alján helyezkednek el. Ha egy betűre rányomunk, akkor a rendszer ellenőrzi, hogy vajon a betűt tartalmazza az a szó.
  Ha tartalmazza akkor a már említett rublikák helyére bekerül(nek) az adott betű. Ha nem tartalmazza akkor a hiba jelzésre kerül.
- A kattintás után az adott betű át lesz húzva és többet nem lehet felhasználni.
+ A kattintás után az adott betű eltűnik és többet nem lehet felhasználni.
 
 * Segítségünk nem lesz, csak saját magunkra leszünk utalva.
  
