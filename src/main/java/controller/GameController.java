@@ -22,6 +22,7 @@ import java.sql.SQLException;
 
 public class GameController {
     MyWord myWord = new MyWord(GetWordsFromDB.wordFromDB());
+    GetCategoryFromDB category = new GetCategoryFromDB();
     @FXML
     private Label markLabel;
 
@@ -41,6 +42,7 @@ public class GameController {
     private void initialize() throws SQLException {
         new MyWord(GetWordsFromDB.wordFromDB());
         markLabel.setText(myWord.getDisplayWord());
+        categoria.setText(category.categoryFromDB());
     }
 
     public void buttonClick(ActionEvent actionEvent) throws IOException, SQLException {
