@@ -11,22 +11,13 @@ import javafx.scene.Parent;
 
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
-import lombok.Getter;
-
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
-import java.sql.SQLOutput;
 
 public class GameController {
     MyWord myWord = new MyWord(GetWordsFromDB.wordFromDB());
@@ -51,6 +42,9 @@ public class GameController {
 
     @FXML
     private ImageView hangManPicture;
+
+    private StateController stateController = new StateController();
+
 
     public GameController() throws SQLException {
     }
@@ -95,44 +89,23 @@ public class GameController {
     private void checkGameEnded() throws  IOException{
         if (counter == 11){
             gamesPlayed++;
-            showLoserPopUp();
+            stateController.showLoserPopUp();
         }
         if (myWord.isGuessed()){
             gamesPlayed++;
             gamesWon++;
-            showWinnerPopUp();
+            stateController.showWinnerPopUp();
         }
     }
 
     private void setHangManImage(){
-        hangManPicture.setImage(new Image(new File("/images/"+counter+".jpg").toURI().toString()));
+        File file = new File("C:/Users/Acer/IdeaProjects/Szoft.Mod.Project1/src/main/resources/images/"+ counter + ".jpg");
+        System.out.println(file.toString());
+        hangManPicture.setImage(new Image(file.toURI().toString()));
     }
 
-    private void showWinnerPopUp() throws  IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/winnerRestart.fxml"));
-        Parent root = fxmlLoader.load();
-        Stage stage = new Stage();
-        stage.setScene(new Scene(root));
-        stage.show();
-    }
-
-    private void showLoserPopUp() throws  IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/restart.fxml"));
-        Parent root = fxmlLoader.load();
-        Stage stage = new Stage();
-        stage.setScene(new Scene(root));
-        stage.show();
-    }
-
-    public void restartGame(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
-        Parent root = fxmlLoader.load();
-        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
-        stage.setScene(new Scene(root));
-        stage.show();
-    }
-
-    public void goToLeaderboard(ActionEvent actionEvent) {
+    public void goToLeaderboard(ActionEvent actionEvent) throws IOException {
+        stateController.goToLeaderboard(actionEvent);
     }
 }
 

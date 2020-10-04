@@ -11,15 +11,15 @@
         <children>
             <Pane prefHeight="150.0" prefWidth="800.0" styleClass="pane" stylesheets="@../Styles/gameBackground.css">
                 <children>
-                    <ImageView fitHeight="300.0" fitWidth="226.0" layoutX="574.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
-                 <Label fx:id="markLabel" layoutX="250.0" layoutY="30.0" prefHeight="90.0" prefWidth="300.0">
-                     <font>
-                         <Font name="Droid Sans Bold" size="31.0" />
-                     </font>
-                 </Label>
-                    <Label fx:id="categoria" layoutX="250.0" layoutY="30.0" prefHeight="90.0" prefWidth="300.0">
+                    <ImageView fx:id="hangManPicture" fitHeight="300.0" fitWidth="226.0" layoutX="574.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+                    <Label fx:id="markLabel" layoutX="250.0" layoutY="30.0" prefHeight="90.0" prefWidth="300.0">
                         <font>
                             <Font name="Droid Sans Bold" size="31.0" />
+                        </font>
+                    </Label>
+                    <Label fx:id="categoria" layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="200.0">
+                        <font>
+                            <Font name="Droid Sans Bold" size="18.0" />
                         </font>
                     </Label>
                 </children></Pane>
