@@ -14,12 +14,19 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import lombok.Getter;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.sql.SQLOutput;
 
 public class GameController {
     MyWord myWord = new MyWord(GetWordsFromDB.wordFromDB());
@@ -41,6 +48,9 @@ public class GameController {
 
     @FXML
     private int gamesWon = 0;
+
+    @FXML
+    private ImageView hangManPicture;
 
     public GameController() throws SQLException {
     }
@@ -73,14 +83,45 @@ public class GameController {
 
     public void increaseCounter(){
         counter += 1;
+        try {
+            checkGameEnded();
+        }
+        catch (IOException exception){
+            System.out.println("IOException occurred");
+        }
+        setHangManImage();
+    }
 
+    private void checkGameEnded() throws  IOException{
         if (counter == 11){
             gamesPlayed++;
+            showLoserPopUp();
         }
-        else {
+        if (myWord.isGuessed()){
             gamesPlayed++;
             gamesWon++;
+            showWinnerPopUp();
         }
+    }
+
+    private void setHangManImage(){
+        hangManPicture.setImage(new Image(new File("/images/"+counter+".jpg").toURI().toString()));
+    }
+
+    private void showWinnerPopUp() throws  IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/winnerRestart.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root));
+        stage.show();
+    }
+
+    private void showLoserPopUp() throws  IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/restart.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = new Stage();
+        stage.setScene(new Scene(root));
+        stage.show();
     }
 
     public void restartGame(ActionEvent actionEvent) throws IOException {

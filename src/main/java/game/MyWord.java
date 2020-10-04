@@ -22,12 +22,15 @@ public class MyWord {
 
     public boolean checkTheValue(char value){
         boolean validGuess = false;
-        for (var pina : word) {
-            if(pina.getLetterValue() == value) {
-                pina.setFound(true);
+        for (var charOfWord : word) {
+            if(charOfWord.getLetterValue() == value) {
+                charOfWord.setFound(true);
                 validGuess = true;
             }
         }
         return validGuess;
+    }
+    public boolean isGuessed(){
+        return word.stream().map(CharOfWord::isFound).filter(c->c==false).count()==0;
     }
 }
