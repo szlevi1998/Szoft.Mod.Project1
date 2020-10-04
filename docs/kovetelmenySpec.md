@@ -47,11 +47,20 @@ Valami táblázat is legyen a játékban, hogy én vagy a tesóm a jobb.
 
 *   Papírok kezelhetlensége.
 ### 4. Igényelt üzleti folyamatok modellje
-Búcsút szeretnénk mondani a régi papíron való játékoknak, ezért szükséges lenne, hogy
-egy olyan program legyen, ami elfut a mamáék gépén is, hogyha hétvégente lemegyünk hozzájuk akkor együtt tudjunk játszani.
-Kis gépigényű legyen, választható kategóriákkal és legyenek benne könnyebb kitalálási lehetőségek is, hogy mindenkinek megfeleljen a családból.
-Fontos még, hogyha megunom ki tudjak lépni belőle azonnal. A kistesóm miatt nem szeretnék bele végtelen próbálkozási lehetőséget sem.
-Egy eredményeket jelző tábla is fontos lenne, hogyha átjönnek a haverok megmutathassam nekik, hogy eddig hányszor nyertem.
+
+*   Gépen történő játék.
+
+*   Alacsony gépigényű játék.
+
+*   Több kategóriából álljon.
+
+*   Azonnali kilépés a játékból.
+
+*   Korlátozott számú hiba lehetősség.
+
+*   Ranglista.
+
+*   Igényes kinézet.
 ### 5. Követelménylista
 
 *   Egy olyan rendszer amely képes kategóriák közül választani a játék megkezdése előtt.
