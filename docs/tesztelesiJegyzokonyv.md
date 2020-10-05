@@ -10,3 +10,5 @@ Pontok  |Leírás                                                           |Elv
 06   | Jól kirajzolódik a hiba ábra | Az ábrák hibáknak megfelelően megjelennek | Sikeres
 07   | Játék bármikor megszakítható | A kilépés gombok sikeresen megszakítják a játékot | Sikeres
 08   | Játék végén leaderboard működik | Utolsó játék után az eredménytábla megjelenik | Sikeres
+|09  | Játék végén újrakezdés működik | Az eredménytáblánál visszatérhetünk a játékban | Sikeres
+|10  | Játék végén kilépés működik | A kilépés gomb az eredménytáblánál működik | Sikeres
