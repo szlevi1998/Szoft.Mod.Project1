@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
+<VBox prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.GameController">
     <VBox />
     <AnchorPane>
         <children>
@@ -133,7 +133,7 @@
                 <font>
                     <Font name="Microsoft YaHei Bold" size="18.0" />
                 </font></Button>
-            <Button layoutX="320.0" layoutY="515.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="160.0" stylesheets="@../Styles/stylesForButtons.css" text="Feladom">
+            <Button fx:id="giveUpButton" layoutX="320.0" layoutY="515.0" mnemonicParsing="false" onAction="#goToLeaderboard" prefHeight="43.0" prefWidth="160.0" stylesheets="@../Styles/stylesForButtons.css" text="Feladom">
                 <font>
                     <Font name="Microsoft YaHei Bold" size="22.0" />
                 </font>
