@@ -13,7 +13,7 @@
             <Font name="Droid Sans Bold" size="31.0" />
          </font>
       </Label>
-      <Button layoutY="550.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Kilépés">
+      <Button fx:id="closeButtonAction" layoutY="550.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="50.0" prefWidth="100.0" text="Kilépés">
          <font>
             <Font name="Arial Bold" size="17.0" />
          </font>

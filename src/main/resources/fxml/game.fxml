@@ -11,7 +11,6 @@
         <children>
             <Pane prefHeight="150.0" prefWidth="800.0" styleClass="pane" stylesheets="@../Styles/gameBackground.css">
                 <children>
-                    <ImageView fx:id="hangManPicture" fitHeight="300.0" fitWidth="226.0" layoutX="574.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
                     <Label fx:id="markLabel" layoutX="250.0" layoutY="30.0" prefHeight="90.0" prefWidth="300.0">
                         <font>
                             <Font name="Droid Sans Bold" size="31.0" />
@@ -22,6 +21,11 @@
                             <Font name="Droid Sans Bold" size="18.0" />
                         </font>
                     </Label>
+               <Button fx:id="closeProgram" layoutX="708.0" layoutY="11.0" mnemonicParsing="false" onAction="#exitProgram" stylesheets="@../Styles/stylesForButtons.css" text="Kilépés">
+                  <font>
+                     <Font name="System Bold" size="16.0" />
+                  </font>
+               </Button>
                 </children></Pane>
 
             <Button layoutX="53.0" layoutY="331.0" mnemonicParsing="false" onAction="#buttonClick" prefHeight="46.0" prefWidth="46.0" stylesheets="@../Styles/stylesForButtons.css" text="A">
@@ -134,6 +138,7 @@
                     <Font name="Microsoft YaHei Bold" size="22.0" />
                 </font>
             </Button>
+              <ImageView fx:id="hangManPicture" fitHeight="300.0" fitWidth="226.0" layoutX="572.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" />
         </children>
     </AnchorPane>
 </VBox>

@@ -1,6 +1,7 @@
 package controller;
 
 import game.Names;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,10 +9,9 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 
 import javafx.scene.Scene;
-import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 import lombok.Getter;
 
@@ -20,6 +20,9 @@ import java.sql.SQLException;
 
 @Getter
 public class LaunchController {
+
+    @FXML
+    public Button closeButtonAction;
 
     @FXML
     private String userName;
@@ -47,6 +50,9 @@ public class LaunchController {
         }
     }
 
+    public void exitProgram(ActionEvent actionEvent) {
+        closeButtonAction.setOnAction(actionEvent1 -> Platform.exit());
+    }
 }
 
 
